@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 	<html lang="en">
-		<title>Tool Lending</title>
+        <head>
+		<title>A Conta dos Passaralhos</title>
 		<meta charset='utf-8'>
 		<script type="text/javascript" src="js/ICanHaz.js"></script>
+        <script type="text/javascript" src="js/highlight.js"></script>
 		<script type="text/javascript" src='js/jquery.js'></script>
 		<script type="text/javascript" src='js/site.js'></script>
 		<script type="text/javascript" src='js/tabletop1.3.4.js'></script>
@@ -12,59 +14,69 @@
 	</head>
 	<body>
 		<header class="container">
-			<h1>Tool Lending</h1>
+			<h1>A Conta dos Passaralhos</h1>
 			<ul class="nav">
-				<li><strong>LENDING IS LOVELY</strong></li>
-				<li>AN OPEN SOURCE, EASY TO DUPLICATE PROJECT</li>
-				<li><a href="#info">HERE'S HOW</a></li>
+				<li id="sub"><strong>Um panorama sobre demissões de jornalistas no Brasil</strong></li>
+				<li><a href="http://voltdata.info" target="_blank" style="color:#a7002c;">Por Volt Data Lab</a> &nbsp;&nbsp;&nbsp;<img src="https://farm1.staticflickr.com/388/20208440111_1e8a3bef75_s.jpg" alt="Logo Square" height="15" width="15"></li>
+                
 			</ul>
+                        
 		</header>
 		<div id="filters" class="container">
-			<input id="toolSearch" type="search" placeholder="hammer.."></input>
-			<span class="clear sml-button">Clear</span>
-			<span id="showAvailable" class="sml-button">Show Available</span>
+			<input id="toolSearch" type="search" placeholder="empresa de mídia..."/>
+			<span class="clear sml-button">Limpar</span>
+			<span id="showAvailable" class="sml-button"><a href="http://voltdatalab.github.io/passaralhos/">Recarregar</a></span>
+            <br>
+            <div>
+            <h5 style="text-align:right;">Total: <strong>1084</strong> jornalistas dispensados</h5>
+            <h6 style="text-align:right;">Última atualização 12/06/2015</h6>
+                </div>
 		</div>
-		<div id="tools" class="container"><span class="flash animated">LOADING...</span></div>
+		<div id="tools" class="container"><span class="flash animated">BUSCANDO...</span></div>
 		<div id="info" class="container">
 				<div class="span1">
-					<h4>CONTRIBUTE TO THIS LIBRARY</h4>
-					<p>If you've been invited by the person who initated this near you, you'll have access and the ability to edit the rows of the spreadsheet feeding data to this site.</p>
-					<p>Simply add the rows for the tools you have and add yes if an item is currently being borrowed. Easy, the Spreadsheet auto-saves, too!</p>
-
-					<p>More details for using this project <a href="http://www.github.com/jlord/lending-library" target="_blank">here</a>.
+					<h4>CONTRIBUA COM ESTE PROJETO</h4>
+					<p>Você pode contribuir com este projeto de diversas maneiras</p>
+                    
+                       <h4>Compartilhe este projeto</h4>
+                        <h4>Doe para este projeto - saiba como</h4>
+                        <h4>Informe sobre demissões</h4>
+                   
+                    
 
 				</div>
 
 				<div class="span1">
-					<h4>START YOUR OWN</h4>
-					<p>The site is open source (free for all), uses a Google Spreadsheet for the data and is designed to be duplicated and live in minutes (Fork-n-go!). You can set up your own by following the instructions attached to the  <a href="http://www.github.com/jlord/lending-library" target="_blank">project's code</a> on GitHub. GitHub also hosts these pages for free with <a href="http://pages.github.com" target="_blank">GitHub Pages</a>.
+					<h4>DADOS</h4>
+                    <p>Todos os dados e códigos utilizados nesta pesquisa estão disponíveis para download <a href="github.com/voltdatalab/passaralhos" target="_blank">aqui</a>, na página do Volt no GitHub. Se você quer realizar parcerias ou patrocinar conteúdo do Volt, entre em contato <a href="mailto:info@voltdata.info" target="_top">info [a] voltdata.info</a>
+</p>
 
 					<p>
-						<a class="imglink" href="http://jlord.github.io/forkngo" target="_blank">
-							<img src="https://raw.githubusercontent.com/jlord/forkngo/gh-pages/badges/charcoal.png" width="200">
-						</a>
+						São Paulo/Curitiba - 2015
 					</p>
 
-					<p>Built by <a href="http://www.twitter.com/jllord">@jllord</a>.
+					<p>Feito por <a href="http://www.twitter.com/voltmediabr">@voltmediabr</a> e <a href="http://twitter.com/@ProjetoStock">@ProjetoStock</a>, agradecimento a <a href="http://www.twitter.com/jllord">@jlord</a>.
 
 				</div>
 		</div>
 
 		<script id="tools" type="text/html">
-		{{#rows}}
+            
+            {{#rows}}               
 		<div id="{{rowNumber}}" class="tool-box {{#checkedout}}not-{{/checkedout}}available">
-			<span class="tool-box-tool">{{tool}}</span>
-			<div class="tool-box-bottom {{rowNumber}}">
-				{{#checkedout}} <span class="tool-box-borrowed">ON LOAN</span>{{/checkedout}}
-				{{^checkedout}}<a href="mailto:{{owneremail}}?subject=Tool Lending: {{tool}}"><span class="tool-box-borrow btn">BORROW</span></a>{{/checkedout}}
+			<span class="tool-box-tool">{{veiculo}}</span>
+			 <div class="tool-box-bottom {{rowNumber}}">
+				{{#checkedout}} <span class="tool-box-borrowed"></span>{{/checkedout}}
+				{{^checkedout}}<a href="mailto:{{owneremail}}?subject=Sei de mais demitidos: {{veiculo}}"><span class="tool-box-borrow btn">Sabe de mais demitidos? Conte-nos</span></a>{{/checkedout}}
 				<ul>
-					<li><small>WHO / WHERE : </small></li>
-					<li><a href="mailto:{{owneremail}}">{{owner}}</a></li>
-					<li>{{street}}, {{city}}, {{state}}</li>
-					<li><a href="https://maps.google.com/maps?q={{street}},{{city}},{{state}}" target="_blank"><small>MAP</small></a></li>
-					{{#tooldetails}}
-					<li><small>NOTES : </small>{{tooldetails}}</li>
-					{{/tooldetails}}
+					<li>JORNALISTAS DEMITIDOS:</li>
+					<li>{{jornalistas}}</li>
+                    <li>TOTAL DE DEMISSÕES*:</li>
+					<li>{{montante}}</li>
+                    <li><small>{{detalhes}}</small></li>
+                    <li><small>(incluiu outras categorias de funcionários)</small></li>
+                    
+                    
 				</ul>
 			</div>
 		</div>
