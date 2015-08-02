@@ -47,11 +47,11 @@
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-559db32030e8c39c" async="async"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">    
 
-		<header class="container">
-            <p style="text-align:center;"><img src="http://www.drawingsomeone.com/wp-content/uploads/2015/05/Flying-Bird-Drawing-2.png"/></p>
+		<header class="container" style="text-align:center;">
+            <img src="http://www.drawingsomeone.com/wp-content/uploads/2015/05/Flying-Bird-Drawing-2.png" width="250">
 			<h1 style="text-align:center;">A Conta dos Passaralhos </h1>
 			     <ul class="nav" style="text-align:center;">
-				    <li id="sub"><strong>Um panorama sobre demissões de jornalistas nas redações do Brasil.</strong></li>
+				    <li id="sub"><strong>Um panorama sobre demissões de jornalistas nas redações do Brasil desde 2012.</strong></li>
 				    <li><a href="http://voltdata.info" target="_blank" style="color:black;"><strong>Por Volt Data Lab</strong></a></li>
                     <br><br><br>
                      <a id="redes" href="http://www.twitter.com/voltmediabr"><i class="fa fa-twitter fa-lg"></i></a> &nbsp;<a id="redes" href="https://www.facebook.com/voltdata"><i class="fa fa-facebook fa-lg"></i></a> &nbsp;<a id="redes" href="https://medium.com/volt-data-lab"><i class="fa fa-medium fa-lg"></i></a>
@@ -72,7 +72,7 @@
 		<div id="info" class="container">
             <div class="span1" style="text-alig:left;">
 					<h4>DADOS</h4>
-                    <p>Todos os dados e códigos utilizados nesta pesquisa estão disponíveis para download <a href="github.com/voltdatalab/passaralhos" target="_blank">aqui</a>, na página do Volt no GitHub. Se você tem interesse em parcerias ou patrocinar conteúdo do Volt, entre em contato <a href="mailto:info@voltdata.info" target="_top">info [a] voltdata.info</a>
+                    <p>Todos os dados e códigos utilizados nesta pesquisa estão disponíveis para download <a href="github.com/voltdatalab/passaralhos" target="_blank">aqui</a>, na página do Volt no GitHub. Para entrar em contato, envie um e-mail para a gente:&nbsp;&nbsp;  <a href="mailto:info@voltdata.info" target="_top"><i class="fa fa-envelope-o"></i>&nbsp; info [a] voltdata.info</a>
 </p>
                     <p>Feito por <a href="http://twitter.com/@ProjetoStock">@ProjetoStock</a>, com código-base de <a href="http://www.twitter.com/jllord">@jlord</a>. </p>
 
@@ -85,9 +85,9 @@
 					<h4>CONTRIBUA COM ESTE PROJETO</h4>
 					<p>Você pode contribuir com este projeto de diversas maneiras</p>
                     
-                <h4>Compartilhe e siga o Volt - <a href="http://www.twitter.com/voltmediabr"><i class="fa fa-twitter"></i></a> &nbsp;<a href="https://www.facebook.com/voltdata"><i class="fa fa-facebook"></i></a> &nbsp;<a href="https://medium.com/volt-data-lab"><i class="fa fa-medium"></i></a></h4>
-                <h4>Informe sobre demissões - <a href="http://www.voltdata.info/demisses-de-jornalistas" target="_blank">clique aqui</a></h4>
-                        <h4>Ajude a continuar este projeto, faça uma doação! </h4>
+                <h4><i class="fa fa-share-alt-square"></i> &nbsp;Compartilhe e siga o Volt - <a href="http://www.twitter.com/voltmediabr"><i class="fa fa-twitter"></i></a> &nbsp;<a href="https://www.facebook.com/voltdata"><i class="fa fa-facebook"></i></a> &nbsp;<a href="https://medium.com/volt-data-lab"><i class="fa fa-medium"></i></a></h4>
+                <h4><i class="fa fa-info-circle"></i> &nbsp;Informe sobre demissões - <a href="http://www.voltdata.info/demisses-de-jornalistas" target="_blank">clique aqui</a></h4>
+                        <h4><i class="fa fa-money"></i> &nbsp;Ajude a continuar este projeto, faça uma doação! </h4>
                 <div style="width:150px">
                     <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
 <form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
@@ -117,11 +117,11 @@
 				{{^checkedout}}<a href="mailto:{{owneremail}}?subject=Sei de mais demitidos: {{veiculo}}"><span class="tool-box-borrow btn">Sabe de mais demitidos? Conte-nos</span></a>{{/checkedout}}
 				<ul>
 					<li>JORNALISTAS DEMITIDOS:</li>
-					<li>{{jornalistas}}</li>
-                    <li>TOTAL DE DEMISSÕES*:</li>
-					<li>{{montante}}</li>
-                    <li><small>{{detalhes}}</small></li>
-                    <li><small><em>*Pode incluir outras categorias de funcionários</em></small></li>
+					<li><i class="fa fa-scissors fa-lg"></i>&nbsp;&nbsp; {{jornalistas}}</li>
+                    <li>TOTAL DE DEMISSÕES <i class="fa fa-exclamation-triangle"></i>:</li>
+					<li><i class="fa fa-user-times fa-lg"></i>&nbsp;&nbsp;{{montante}}</li>
+                    <li><small><i class="fa fa-info"></i>&nbsp;&nbsp;{{detalhes}}</small></li>
+                    <li><small><i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;<em>Pode incluir outras categorias de funcionários</em></small></li>
                     
                     
 				</ul>
