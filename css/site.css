@@ -1,15 +1,24 @@
 body {font-family: "Source Sans Pro", Franklin Gothic Book, Helvetica, Arial, sans-serif; font-weight: lighter;
   border: 52px #F8F8F8 solid; margin: 0px; padding: 20px 20px 200px 20px;}
 a {text-decoration: none; color: inherit; border-bottom: 1px dotted;}
-a:hover, .tool-box.available a:hover, .tool-box a:hover {color: #55b6ff; border-color: #55b6ff;}
+a:hover, .tool-box.available a:hover, .tool-box a:hover {color: #cbcbcb; border-color: #cbcbcb;}
+a#redes {text-decoration: none; color: black; border-bottom: 0px dotted;}
+a#redes:hover {text-decoration: none; color: #cbcbcb; border-bottom: 0px dotted;}
 small {font-weight: 700; font-size: 11px; letter-spacing: .08em;}
-h1 {font-size: 68px; color: #0087ff; margin: 30px 0px 20px 0px;}
+h1 {font-size: 68px; color: #000; margin: 30px 0px 20px 0px; color:}
 h4, h5 {margin: 4px 0px; }
-h5 {font-weight: lighter; color: #0087ff; text-transform: uppercase;}
+h5 {font-weight: 400; color: black; text-transform: uppercase;}
 .container {max-width: 870px; margin: 0px auto; overflow: auto; padding: 20px 0px;}
 *:focus {outline: 0;}
 
-.span1 {max-width: 48%; display: inline-block; box-sizing: border-box; -moz-box-sizing: border-box; padding-right: 18px; vertical-align: top;}
+h6 {margin-top: 0;
+}
+
+li#sub{
+    color:black;
+}
+
+.span1 {max-width: 48%; display: inline-block; box-sizing: border-box; -moz-box-sizing: border-box; padding-right: 18px; vertical-align: top; text-align:left;}
 .span1:last-child {padding-right: 0px;}
 
 #info a img {border: 0; text-decoration: none;}
@@ -26,10 +35,10 @@ ul.nav a:hover {color: #55b6ff; border-color: #55b6ff;}
 #info p {font-weight: lighter; font-size: 12px; line-height: 1.5em;}
 
 input:not([type=submit]):not([type=file]):not([type=checkbox]) {margin: 19px 4px; border: none;
-  border-bottom: 1px solid #0087ff; background-color: transparent; padding: 0px;
-  font-family: Source Sans Pro; color: #acacac; font-size: 13px; height: 22px;}
+  border-bottom: 1px solid #546632; background-color: transparent; padding: 0px;
+  font-family: Source Sans Pro; color: #443266; font-size: 16px; height: 22px;width:40%;}
 
-.sml-button {cursor: pointer;padding: 5px 7px; background-color: #0087ff; font-weight: 700; font-size: 12px;
+.sml-button {cursor: pointer;padding: 5px 7px; background-color: #546632; font-weight: 700; font-size: 12px;
   text-transform: uppercase; letter-spacing: .1em; text-align: center; color: #fff;}
 .sml-button:hover {opacity: .75;}
 .button-pressed {background: #55b6ff;}
@@ -37,24 +46,24 @@ input:not([type=submit]):not([type=file]):not([type=checkbox]) {margin: 19px 4px
 /* #0087ff blue
    #0087ff; green */
 
-#tools {-webkit-column-count:3; -webkit-column-gap : 16px; -webkit-column-width: 250px; -moz-column-count:3;
+#tools {-webkit-column-count:2; -webkit-column-gap : 10px; -webkit-column-width: 250px; -moz-column-count:2;
   -moz-column-gap : 16px; -moz-column-width: 250px;}
 
 .tool-box { background: #E0E0DF; color: #5A5A5A; padding: 12px; margin-bottom: 16px; box-sizing: border-box;
    -mox-box-sizing:border-box; -webkit-column-break-inside:avoid; -moz-column-break-inside:avoid;
    display: table; width: 100%;}
 .tool-box a {border-color: #9B9A9A;}
-.tool-box.available {background: #0087ff; color: #fff;}
+.tool-box.available {background:  #443266; color: #fff;}
 .tool-box.available a {border-color: #fff;}
 .tool-box:nth-child(1) {margin-top: 0;}
-.tool-box-tool { display: block; font-size: 26px; padding: 10px 0; text-align: center; width: 100%;
+.tool-box-tool { display: block; font-size: 26px; padding: 10px 0; text-align: center; width: 100%; background-color: #443266;
   cursor: pointer; font-weight: 700;}
 .tool-box:hover {opacity: .75;}
 .tool-box ul {list-style: none; margin: 20px 0px 0px 0px; padding: 0px;}
 .tool-box li {margin: 10px 0px;}
 
 .tool-box-borrow {display: block; box-sizing: border-box; -mox-box-sizing: border-box; position: relative;
-  background: #fff; color: #0087ff; padding: 4px 0px; letter-spacing: .08em; font-weight: 900;
+  background: #546632; color: #fff; padding: 4px 0px; letter-spacing: .08em; font-weight: 900;
   text-align: center; width: 100%; margin: 12px 0px; cursor: pointer; border: 1px solid transparent;}
 .tool-box-borrow:hover { border: 1px solid #55b6ff; color: #fff; background-color: #55b6ff;}
 
