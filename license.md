@@ -1,3 +1,5 @@
+*Nota de @ProjetoStock: abaixo, comentários sobre licença de código base-feito por @jlord*
+
 # Hi License! 
 
 ## This repo is BSD licensed.
