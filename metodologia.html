@@ -39,121 +39,52 @@
 <meta property="og:image" content="https://farm1.staticflickr.com/465/20075179309_3c24c1e3ea_m.jpg" />
 <meta property="og:url" content="http://passaralhos.voltdata.info">
 <meta property="og:title" content="A Conta dos Passaralhos">
-<meta property="og:description" content="Um panorama sobre demissões de jornalistas no Brasil a partir de 2012">               
+<meta property="og:description" content="Um panorama sobre demissões de jornalistas no Brasil a partir de 2012">    
+
             
-            
-	</head>
-	<body>
+	    </head>
+        <body>
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-559db32030e8c39c" async="async"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
-        
-        
-		<header class="container">
-			<h1>A Conta dos Passaralhos</h1>
-			<ul class="nav">
-				<li id="sub"><strong>Um panorama sobre demissões de jornalistas no Brasil</strong></li>
-				<li><a href="http://voltdata.info" target="_blank" style="color:#a7002c;">Por Volt Data Lab</a> &nbsp;&nbsp;&nbsp;<img src="https://farm1.staticflickr.com/388/20208440111_1e8a3bef75_s.jpg" alt="Logo Square" height="15" width="15"></li>
-                <br><br>
-                <a href='http://passaralhos.voltdata.info/' class='sml-button' style="color:white;">Voltar para página inicial</a>
-			</ul>
-                        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">    
+
+		<header class="container" style="text-align:center;">
+            <img src="https://farm1.staticflickr.com/465/20075179309_3c24c1e3ea_m.jpg">
+			<h1 style="text-align:center;">A Conta dos Passaralhos </h1>
+			     <ul class="nav" style="text-align:center;">
+				    <li id="sub"><strong>Um panorama sobre demissões de jornalistas nas redações do Brasil desde 2012.</strong></li>
+				    <li><a href="http://voltdata.info" target="_blank" style="color:black;"><strong>Por Volt Data Lab</strong></a></li>
+                    <br><br><br>
+                     <a id="redes" href="http://www.twitter.com/voltmediabr"><i class="fa fa-twitter fa-lg"></i></a> &nbsp;<a id="redes" href="https://www.facebook.com/voltdata"><i class="fa fa-facebook fa-lg"></i></a> &nbsp;<a id="redes" href="https://medium.com/volt-data-lab"><i class="fa fa-medium fa-lg"></i></a>
+                     <br><br><br>
+                    <h5 style="text-align:center;">Total: <strong>1084</strong> jornalistas dispensados desde 2012</h5>
+                    <h5 style="text-align:center;color:#a7002c;">Última atualização jun/2015</h5>   
+                     <br>
+                     <li><a href='http://passaralhos.voltdata.info/graficos' class='sml-button' style="color:white;">Gráficos</a></li>
+			     </ul>                       
 		</header>
-		
-       
-        <!-- METODOLOGIA  -->
-        
-        <div class="container">
-        
-        <h5>Metodologia</h5>
-        <p>Não é tarefa fácil rastrear as demissões de jornalistas nas redações brasileiras. A inexistência de um banco de dados nacional ou de uma fiscalização compreensiva por parte da Federação Nacional dos Jornalistas (Fenaj) ou de sindicatos diz muito sobre a falta de unidade do setor. </p>
-        <p>Soma-se a isso a pouca transparência das empresas jornalísticas, que raramente anunciam seus planos de demissões e contratações.</p>
-        <p>Outro motivo é a informalidade do setor. Em parte, isso explicaria a falta de transparência das empresas: se elas estão fazendo algo irregular, como contratar jornalistas como PJ ou “frilas fixos”, obviamente não divulgariam os cortes - até porque esses profissionais não seriam considerados funcionários. </p>
-        <p>Para se ter uma ideia da dificuldade em se obter dados precisos, nem mesmo a Fenaj sabe quantos jornalistas de redação foram demitidos nos últimos anos ou quantos são terceirizados ou PJs. Na falta de um levantamento detalhado, a entidade baseia-se em dados do Ministério do Trabalho, que contabiliza apenas celetistas e não discrimina se eles são de redações ou de outras áreas relacionadas ao jornalismo - como assessoria de imprensa, comunicação interna e produção de conteúdo corporativo.
+            
+		<div id="filters" class="container" style="text-align:center;">
+			<input id="toolSearch" type="search" style="text-align:center;" placeholder="busque a empresa aqui..." />
+			<br><span class="clear sml-button">Limpar</span>
+			<span id="showAvailable" class="sml-button"><a href="http://passaralhos.voltdata.info/"><i class="fa fa-refresh"></i></a></span>
+            <br>
+            <br>
+            </div>
+		<div id="tools" class="container"><span class="flash animated">BUSCANDO...</span></div>
 
- </p>
-        <p>Em um pedido de dados feito pelo Volt por e-mail em 15 de maio, a reposta da Fenaj foi: “não temos os dados solicitados e a melhor fonte é o MTE, que é responsável pelos levantamentos anuais”. Em subsequente contato com um diretor da entidade, foram enviados dados do Caged.
+    <!-- PÉ - FOOTER -->
+            <div id="info" class="container">
+            <div class="span1">
+            <h4>Acesse aqui as reportangens do Volt sobre o projeto<br></h4>
+<a class="embedly-card" href="https://medium.com/volt-data-lab/a-conta-dos-passaralhos-953e7e254d4a">A conta dos passaralhos</a>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
- </p>
-        <p>A maioria dos sindicatos também não parece muito empenhada em fornecer ou até mesmo compilar esses dados.
-
- </p>
-        <p>O Volt entrou em contato com praticamente todos os sindicatos, estaduais ou locais, num total quase 30, e em duas semanas obteve retorno de apenas cinco - São Paulo, Acre, Ceará, Distrito Federal e Rio Grande do Sul.
-
- </p>
-        <p>Foram solicitados as seguintes informações a eles: dados discriminados por ano (2010, 2011, 2012, 2013, 2014 e parcial até maio/2015) e em categorias como 1. Demissão 2. Pedido de demissão 3. Fim de contrato 4. Aposentadoria 5. Morte 6. Outro.
-
- </p>
-        <p>O sindicato do DF respondeu apenas, num claro exemplo da crise dessas instituições, que “não temos os dados consolidados e no momento não temos equipe para tal levantamento”.
-
- </p>
-        <h5>Levantamento de dados</h5>
-        <p>A pesquisa do Volt valeu-se, então, de notícias publicadas em sites especializados entre 2012 e o começo de junho de 2015. As principais fontes foram o <a hre="http://portalimprensa.com.br/">Portal Imprensa</a>, o <a hre="http://comunique-se.com.br/">Comunique-se</a> e o <a hre="http://portaldosjornalistas.com.br/">Portal dos Jornalistas</a>. </p>
-        <p>O lado positivo da pesquisa por fontes noticiosas é que ela é baseada muitas vezes em fontes não-oficiais - especialmente apuração de repórteres cobrindo o caso. Isso traz uma vantagem: jornalistas informais podem ser contabilizados. Por exemplo, um “PJ” demitido pode não contar oficialmente como “demissão”, já que ele é formalmente uma empresa fornecedora, e não um funcionário.
-
- </p>
-        <p>Há também lados negativos: é difícil traçar uma série histórica, por falta de informações mais antigas; e notícias sobre demissões não-coletivas, inclusive por cortes de custos, muitas vezes não são publicadas.
-
- </p>
-        <p>Antes de 2012, as notícias sobre demissões nas redações são esparsas e imprecisas nos mecanismos de buscas, o que dificulta ainda mais a obtenção de estimativas. Mas certamente esse cenário foi bastante acintoso após a crise financeira mundial de 2008, agravado ainda mais pela fraqueza da atividade econômica brasileira desde 2011.
-
- </p>
-        <p>Em meio a anúncios constantes de cortes nas redações já há alguns anos, esses números podem parecer pequenos. Considerando a falta de informação e a dificuldade de levantar dados confiáveis e precisos sobre o assunto, talvez até sejam mesmo.
-
- </p>
-        <p>Mas, imagine só: pelo menos 1.000 cortes (estamos falando apenas de jornalistas) em pouco mais de três anos e meio. E isso somente em algumas redações.
-
- </p>
-        <p>É preciso reconhecer, no entanto, que esse número é uma estimativa baseada em registros não-oficiais, e deve ser muito maior.
-
- </p>
-        <p>Primeiramente, porque muitas demissões de jornalistas nem mesmo são relatadas pela imprensa especializada. Foi o caso, por exemplo, de quatro demissões de jornalistas (registrados em carteira) ocorridas na agência de notícias Reuters, em abril de 2013.
-
- </p>
-        <p>A Record e a Rede TV!, em 2013, promoveram a demissão em massa de mais de centenas de pessoas cada uma. No entanto, não foram divulgados os números finais de jornalistas demitidos, apenas o total geral, incluindo outras áreas, o que dificulta o registro. Dezenas de repórteres e editores foram dispensados, mas não há registros sobre isso, ou as fonte carecem de credibilidade.
-
- </p>
-        <p>Em segundo lugar, porque a grande maioria das notícias analisadas pelo Volt tinha como foco principal demissões em massa. Ou seja, muitas dispensas pontuais para cortes de custos não foram relatadas.
-
- </p>
-        <p>Em terceiro, há também muitos desligamentos de profissionais terceirizados ou que trabalhavam sob regime de prestador de serviço PJ (Pessoa Jurídica), o que torna os números mais difíceis de rastrear, já que essas demissões não passam por sindicatos nem nenhuma entidade de fiscalização, e essas pessoas muitas vezes nem mesmo são consideradas funcionárias das empresas.
-
- </p>
-        <p>Por se tratar dezenas de empresas e grupos diferentes, além de ter sido um levantamento próprio a partir de notícias não corrigidas, o Volt não contatou as empresas para esse projeto. Caso qualquer empresa queira se posicionar, favor contatar o Volt através do e-mail: <a href="mailto: info@voltdata.info"> info[@]voltdata.info</a>
- </p>
-        
-        <h5>Textos complementares</h5>
-        <ul>
-            <li><a href="http://observatoriodaimprensa.com.br/imprensa-em-questao/crise-e-demissoes-na-midia/" target="_blank">Crise e demissões na mídia</a> - Julyete Farias Louly - Observatório da Imprensa (Ed. 846) - 14/04/2015</li>
-            <li><a href="http://apublica.org/2013/06/revoada-dos-passaralhos/" target="_blank">A revoada dos passaralhos</a> - Bruno Fonseca, Camila Rodrigues, Luiza Bodenmüller, Natalia Viana - Agência Pública - 10/06/2014</li>
-            <li><a href="http://apublica.org/2013/06/existe-uma-crise-nos-impressos-nada-declarar-respondem-os-jornais/" target="_blank">Existe uma crise nos impressos? Nada a declarar, respondem os jornais</a> - Bruno Fonseca, Camila Rodrigues, Luiza Bodenmüller, Natalia Viana - Agência Pública - 10/06/2014</li>
-            <li><a href="http://apublica.org/2013/06/pior-profissao-mundo/" target="_blank">A pior profissão do mundo</a> - Bruno Fonseca, Camila Rodrigues, Luiza Bodenmüller, Natalia Viana - Agência Pública - 10/06/2014</li>
-            <li><a href="https://knightcenter.utexas.edu/pt-br/blog/00-14028-demissoes-em-massa-em-jornais-e-revistas-geram-debate-sobre-precarizacao-e-futuro-do-j" target="_blank">Demissões em massa em jornais e revistas geram debate sobre precarização e futuro do jornalismo no Brasil</a> - Natalia Mazzote - Knight Center For Journalism in the Americas - 14/06/2013</li>
-            <li><a href="https://ijnet.org/en/blog/how-entrepreneurial-journalism-taking-brazil" target="_blank">Como o jornalismo empreendedor está decolando no Brasil</a> - IJNet - 09/06/2015</li>
-        
-        </ul>
-        
-        <h5>Fontes</h5>
-        <ul>
-            <li><a href="https://docs.google.com/spreadsheets/d/12TIuxaVN-_nAE6ZrX2lveuIDdx9Xr4zKddV9KAJqAxY/edit?usp=sharing" target="_blank">Tabela (CSV) sobre demissões de jornalistas levantada pelo Volt</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/1cIOtA5xzsg5nq6FsAUPGb_-r-JLvefbtzihAz2x0i0o/edit?usp=sharing" target="_blank">Tabela (CSV) de dados do Caged sobre profissionais de jornalismo</a></li>
-            <li><a href="http://www.acessoainformacao.gov.br" target="_blank">Lei de Acesso à Informação (LAI) do Governo Federal</a></li>
-            <li><a href="http://portal.mte.gov.br/caged/cadastro-geral-de-empregados-e-desempregados-caged.htm" target="_blank">Cadastro Geral de Empregados e Desempregados (Caged)</a></li>
-            <li><a href="http://www.secom.gov.br/atuacao/pesquisa/lista-de-pesquisas-quantitativas-e-qualitativas-de-contratos-atuais/pesquisa-brasileira-de-midia-pbm-2015.pdf" target="_blank">Pesquisa Brasileira de Mídia 2015</a>- Secretaria de Comunicação Social da Presidência da República </li>
-            <li><a href="http://www.portalimprensa.com.br/" target="_blank">Portal Imprensa</a></li>
-            <li><a href="http://portal.comunique-se.com.br/" target="_blank">Portal Comunique-se</a></li>
-            <li><a href="http://www.portaldosjornalistas.com.br/" target="_blank">Portal dos Jornalistas</a></li>
-            <li><a href="http://www.folha.uol.com.br/" target="_blank">Folha de S.Paulo</a></li>
-            <li><a href="http://grupoabril1.abrilm.com.br/ABRILCOMUNICA114.DEZ.pdf" target="_blank">Balanço Financeiro 2014 da Abril Comunicações</a></li>
-            <li><a href="http://www.estadao.com.br/relatorio-da-administracao/DF%20Dez14%20Combinado%20com%20parecer.pdf" target="_blank">Balanço Financeiro 2014 do Grupo Estado</a></li>
-            <li><a href="http://www.estadao.com.br/relatorio-da-administracao/DF%20Dez11%20SA%20consolidado%20com%20parecer.pdf" target="_blank">Balanço Financeiro 2012 do Grupo Estado</a></li>
-            <li><a href="http://www1.folha.uol.com.br/folha90anos/877734-grupo-folha-triplica-faturamento-em-dez-anos-e-consolida-lideranca.shtml" target="_blank">Balanço Financeiro 2011 do Grupo Folha</a></li>
-        
-        </ul>
-        <h6 style="text-align:right;">Última atualização desta página 06/2015</h6>
-        </div>
-        <!-- FIM DA METODOLOGIA-->
-        
-		<div id="info" class="container">
+            </div>
+                    
+            <div class="span1">
+            <a class="embedly-card" href="https://medium.com/volt-data-lab/o-silêncio-dos-passaralhos-7e9897ff1ecc?source=latest">O silêncio dos passaralhos</a>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+            </div>
             <div class="span1" style="text-alig:left;">
 					<h4>DADOS</h4>
                     <p>Todos os dados e códigos utilizados nesta pesquisa estão disponíveis para download <a href="github.com/voltdatalab/passaralhos" target="_blank">aqui</a>, na página do Volt no GitHub. A metodologia da pesquisa, você pode encontrar <a href="http://passaralhos.voltdata.info/metodologia">aqui</a>.</p> 
@@ -188,9 +119,41 @@
                     
 
             </div>
-
-				
+            
 		  </div>
+            
+            <!-- FIM DO PÉ - FOOTER -->
+            
+            <!-- SCRIPT DO BANCO DE DADOS -->
+            
+		<script id="tools" type="text/html">
+            
+            {{#rows}}               
+		<div id="{{rowNumber}}" class="tool-box {{#checkedout}}not-{{/checkedout}}available">
+			<span class="tool-box-tool">{{veiculo}}</span>
+			 <div class="tool-box-bottom {{rowNumber}}">
+				{{#checkedout}} <span class="tool-box-borrowed"></span>{{/checkedout}}
+				{{^checkedout}}<a href="mailto:{{owneremail}}?subject=Sei de mais demitidos: {{veiculo}}"><span class="tool-box-borrow btn">Sabe de mais demitidos? Conte-nos</span></a>{{/checkedout}}
+				<ul>
+					<li>JORNALISTAS DEMITIDOS:</li>
+					<li><i class="fa fa-scissors fa-lg"></i>&nbsp;&nbsp; {{jornalistas}}</li>
+                    <li>TOTAL DE DEMISSÕES <i class="fa fa-exclamation-triangle"></i>:</li>
+					<li><i class="fa fa-user-times fa-lg"></i>&nbsp;&nbsp;{{montante}}</li>
+                    <li><small>{{detalhes}}</small></li>
+                    <li><small><i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;<em>Pode incluir outras categorias de funcionários</em></small></li>
+                    
+                    
+				</ul>
+			</div>
+		</div>
+		{{/rows}}
+		</script>
 
+		<script type="text/javascript">
+		  document.addEventListener('DOMContentLoaded', function() {
+	      var URL = "https://docs.google.com/spreadsheets/d/1x163DjA2qIiqNA4dcf4HJSO7xh5FJX-iiqi7X1lcZd8/pubhtml"
+	      Tabletop.init( { key: URL, callback: drawToolBox, simpleSheet: true } )
+	    })
+		</script>
 	</body>
 </html>
