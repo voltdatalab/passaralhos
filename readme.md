@@ -10,7 +10,7 @@ Nesta página, você pode acessar o todo o conteúdo do projeto, assim como a me
             <li><a href="http://portal.mte.gov.br/caged/cadastro-geral-de-empregados-e-desempregados-caged.htm" target="_blank">Cadastro Geral de Empregados e Desempregados (Caged)</a></li>
             <li><a href="http://www.secom.gov.br/atuacao/pesquisa/lista-de-pesquisas-quantitativas-e-qualitativas-de-contratos-atuais/pesquisa-brasileira-de-midia-pbm-2015.pdf" target="_blank">Pesquisa Brasileira de Mídia 2015</a>- Secretaria de Comunicação Social da Presidência da República </li>
             <li><a href="http://www.portalimprensa.com.br/" target="_blank">Portal Imprensa</a></li>
-            <li><a href="http://portal.comunique-se.com.br/" target="_blank"></a>Portal Comunique-se</li>
+            <li><a href="http://portal.comunique-se.com.br/" target="_blank">Portal Comunique-se</a></li>
             <li><a href="http://www.portaldosjornalistas.com.br/" target="_blank">Portal dos Jornalistas</a></li>
             <li><a href="http://www.folha.uol.com.br/" target="_blank">Folha de S.Paulo</a></li>
             <li><a href="http://grupoabril1.abrilm.com.br/ABRILCOMUNICA114.DEZ.pdf" target="_blank">Balanço Financeiro 2014 da Abril Comunicações</a></li>
