@@ -12,6 +12,8 @@ Os dados desse projeto devem ser olhados mais como uma referência das dificulda
 
 Para saber mais detalhadamente como o levantamento foi feito e conferir as referências, acesse a [Metodologia](metodologia.html).
 
+Você também pode acessar o código desse projeto no [GitHub](https://github.com/voltdatalab/passaralhos).
+
 ###### Foto de Yan Boechat
 
 ![](foto.jpg)
