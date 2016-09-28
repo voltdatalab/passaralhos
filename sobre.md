@@ -14,6 +14,7 @@ Para saber mais detalhadamente como o levantamento foi feito e conferir as refer
 
 Você também pode acessar o código desse projeto no [GitHub](https://github.com/voltdatalab/passaralhos).
 
-###### Foto de Yan Boechat
+
 
 ![](foto.jpg)
+###### Foto de Yan Boechat

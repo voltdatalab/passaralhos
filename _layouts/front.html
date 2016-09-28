@@ -19,8 +19,6 @@
     <p><strong class="numeros">{{ site.jornalistas}}</strong> demissões de jornalistas em redações</p>
     <p><strong class="numeros">{{ site.total}}</strong> demissões totais de empresas de mídia </p>
     <p><small><em>{{ site.atualizacao }}</em></small></p>
-    <!-- compartilhamento -->
-    <h6>Compartilhe este projeto</h6><div class="addthis_sharing_toolbox"></div>
     <hr /> <br />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/d3.js"></script>
@@ -30,6 +28,7 @@
     <hr /> <br />
     {{ content }}
   </div>
+  {% include footer.html %}
   {% include scripts.html %}
 </body>
 </html>
