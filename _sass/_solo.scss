@@ -1,0 +1,285 @@
+@import url(//fonts.googleapis.com/css?family=Inconsolata:400,700|Merriweather:700);
+
+html {
+  font: 16px/1.5 Inconsolata, sans-serif;
+}
+
+@media (min-width: 30rem) {
+  html {
+    font-size: 20px;
+  }
+}
+
+body {
+  margin: 0rem 0 5rem;
+  color: #333;
+}
+
+@media (min-width: 30rem) {
+  body {
+    margin-top: 0rem;
+    margin-bottom: 4rem;
+  }
+}
+
+a {
+  color: #000; /* From http://clrs.cc */
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Merriweather, sans-serif;
+  margin: 0 0 0.5rem -0.1rem /* align left edge */;
+  line-height: 1.3;
+  color: #111;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h6 {
+  font-size: .6em;
+  margin: 0;
+  padding: 0
+}
+
+@media (min-width: 30rem) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 30rem) {
+  h2 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding-right: 10rem;
+  }
+}
+
+h3, h4, h5 {
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.numeros {
+  font-size: 1.2em;
+  color: #a7000c;
+  text-transform: none;
+  font-family: Inconsolata, sans-serif;
+  margin-top: 0;
+}
+
+p, ul, ol, dl, table, pre, blockquote {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: .8em;
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+dd {
+  margin-left: 1.5rem;
+}
+
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding: .5rem 1rem;
+  border-left: .25rem solid #ccc;
+  color: #666;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+hr {
+  border: none;
+  margin: 1.5rem 0;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  top: -1px;
+}
+
+.container img, .container iframe {
+  max-width: 100%;
+}
+
+.container img {
+  margin: 0 auto;
+  display: block;
+}
+
+.nav {
+  padding: 0;
+  margin: 60px 20px 20px 0;
+  width: 600px
+}
+
+.nav li{
+  display: inline-block;
+  padding: 3px;
+  font-size: .7em;
+  text-transform: uppercase;
+  border-bottom: 3px solid #a7000c;
+  border-top: 3px solid #a7000c;
+  color: #a7000c;
+}
+
+.nav li:hover{
+  display: inline-block;
+  padding: 3px;
+  background-color: #a7000c;
+  color: #fff;
+}
+
+.nav li a{
+  text-decoration: none;
+  color: #a7000c;
+}
+
+.nav li a:hover, .nav ul a:hover{
+  color: #fff
+}
+
+table {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: .25rem .5rem;
+  border: 1px solid #ccc;
+}
+
+pre, code {
+  font-family: inherit;
+  background-color: #eee;
+}
+
+pre {
+  padding: .5rem 1rem;
+  font-size: 0.8rem;
+}
+
+code {
+  padding: .1rem .25rem;
+}
+
+pre > code {
+  padding: 0;
+}
+
+.container {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Header */
+
+#header {
+    background-color: #a7000c;
+    margin: 0 0 3rem 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 16px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Menu */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ccc;
+    min-width: 160px;
+    font: 18px 'Inconsolata';
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+
+/* Menu hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Menu background */
+
+.dropdown:hover .dropbtn {
+    background-color: #a7000c;
+}
+
+#logo {
+    float: right;
+    max-width: 90px;
+    margin: 10px 20px;
+}
