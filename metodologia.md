@@ -4,6 +4,10 @@ layout: default
 
 ### Metodologia
 
+---
+
+#### Contexto
+
 Não é tarefa fácil rastrear as demissões de jornalistas nas redações brasileiras. A inexistência de um banco de dados nacional ou de uma fiscalização compreensiva por parte da Federação Nacional dos Jornalistas (Fenaj) ou de sindicatos diz muito sobre a falta de unidade do setor.
 
 Soma-se a isso a pouca transparência das empresas jornalísticas, que raramente anunciam seus planos de demissões e contratações.
@@ -22,9 +26,9 @@ Foram solicitados as seguintes informações a eles: dados discriminados por ano
 
 O sindicato do DF respondeu apenas, num claro exemplo da crise dessas instituições, que “não temos os dados consolidados e no momento não temos equipe para tal levantamento”.
 
-### Levantamento de dados
+#### Levantamento de dados
 
-A pesquisa do Volt valeu-se, então, de notícias publicadas em sites especializados entre 2012 e o começo de junho de 2015. As principais fontes foram o [Portal Imprensa](http://portalimprensa.com.br/), o [Comunique-se](http://comunique-se.com.br/) e o [Portal dos Jornalistas](http://portaldosjornalistas.com.br/).
+A pesquisa do Volt vale-se, então, de notícias publicadas em sites especializados a partir de 2012. As principais fontes foram o [Portal Imprensa](http://portalimprensa.com.br/), o [Comunique-se](http://comunique-se.com.br/) e o [Portal dos Jornalistas](http://portaldosjornalistas.com.br/), mas também incluem alguns outros veículos.
 
 O lado positivo da pesquisa por fontes noticiosas é que ela é baseada muitas vezes em fontes não-oficiais - especialmente apuração de repórteres cobrindo o caso. Isso traz uma vantagem: jornalistas informais podem ser contabilizados. Por exemplo, um “PJ” demitido pode não contar oficialmente como “demissão”, já que ele é formalmente uma empresa fornecedora, e não um funcionário.
 
@@ -32,23 +36,33 @@ Há também lados negativos: é difícil traçar uma série histórica, por falt
 
 Antes de 2012, as notícias sobre demissões nas redações são esparsas e imprecisas nos mecanismos de buscas, o que dificulta ainda mais a obtenção de estimativas. Mas certamente esse cenário foi bastante acintoso após a crise financeira mundial de 2008, agravado ainda mais pela fraqueza da atividade econômica brasileira desde 2011.
 
-Em meio a anúncios constantes de cortes nas redações já há alguns anos, esses números podem parecer pequenos. Considerando a falta de informação e a dificuldade de levantar dados confiáveis e precisos sobre o assunto, talvez até sejam mesmo.
+Em meio a anúncios constantes de cortes nas redações já há alguns anos, esses números podem parecer pequenos. Considerando a falta de informação e a dificuldade de levantar dados confiáveis e precisos sobre o assunto, talvez estejam mesmo subestimados. Portanto, os números dessa pesquisa devem ser tratados mais como uma estimativa geral e uma referência da situação das redações jornalísticas do que como um estudo de alta precisão.
 
-Mas, imagine só: pelo menos 1.000 cortes (estamos falando apenas de jornalistas) em pouco mais de três anos e meio. E isso somente em algumas redações.
-
-É preciso reconhecer, no entanto, que esse número é uma estimativa baseada em registros não-oficiais, e deve ser muito maior.
-
-Primeiramente, porque muitas demissões de jornalistas nem mesmo são relatadas pela imprensa especializada. Foi o caso, por exemplo, de quatro demissões de jornalistas (registrados em carteira) ocorridas na agência de notícias Reuters, em abril de 2013.
+Primeiramente, porque muitas demissões de jornalistas nem mesmo são relatadas pela imprensa especializada. Foi o caso, por exemplo, de quatro demissões de jornalistas (registrados em carteira) ocorridas na agência de notícias Reuters, em abril de 2013 (*nota: o editor do Volt é ex-funcionário da Reuters, mas não foi demitido*).
 
 A Record e a Rede TV!, em 2013, promoveram a demissão em massa de mais de centenas de pessoas cada uma. No entanto, não foram divulgados os números finais de jornalistas demitidos, apenas o total geral, incluindo outras áreas, o que dificulta o registro. Dezenas de repórteres e editores foram dispensados, mas não há registros sobre isso, ou as fonte carecem de credibilidade.
 
 Em segundo lugar, porque a grande maioria das notícias analisadas pelo Volt tinha como foco principal demissões em massa. Ou seja, muitas dispensas pontuais para cortes de custos não foram relatadas.
 
-Em terceiro, há também muitos desligamentos de profissionais terceirizados ou que trabalhavam sob regime de prestador de serviço PJ (Pessoa Jurídica), o que torna os números mais difíceis de rastrear, já que essas demissões não passam por sindicatos nem nenhuma entidade de fiscalização, e essas pessoas muitas vezes nem mesmo são consideradas funcionárias das empresas.
+Em terceiro, há também muitos desligamentos de profissionais terceirizados ou que trabalhavam sob regime de prestador de serviço PJ (Pessoa Jurídica), o que torna os números mais difíceis de rastrear, já que essas demissões não passam por sindicatos nem nenhuma entidade de fiscalização, e essas pessoas muitas vezes nem mesmo são consideradas funcionárias das empresas. Embora a imprensa especializada relate algumas dessas demissões, é impossível saber se noticia todas.
 
-Por se tratar dezenas de empresas e grupos diferentes, além de ter sido um levantamento próprio a partir de notícias não corrigidas, o Volt não contatou as empresas para esse projeto. Caso qualquer empresa queira se posicionar, favor contatar o Volt através do e-mail: [info[@]voltdata.info](mailto: info@voltdata.info)
+Por fim, não se deve considerar os dados deste levantamento como "demissões líquidas", ou seja, *demissões - contratações*, considerando que, após desligamentos, algumas vagas voltam a ser preenchidas. É praticamente impossível saber os dados de contratações das redações.
 
-##### Textos complementares
+É seguro dizer, no entanto, que muitas vagas em redações foram extintas, e muitas das que foram repostas o foram com profissionais mais jovens e, consequentemente, com salários menores.
+
+*Texto original de junho/2015, revisado em setembro/2016*
+
+---
+
+#### Direito de resposta das empresas jornalísticas
+
+Por se tratar dezenas de empresas e grupos diferentes, além de ter sido um levantamento próprio a partir de notícias não corrigidas, o Volt não contatou as empresas para esclarecimentos no âmbito deste projeto.
+
+Caso qualquer empresa queira se posicionar, favor contatar o Volt através do e-mail: [info[@]voltdata.info](mailto: info@voltdata.info)
+
+---
+
+#### Textos complementares
 
 *   [Crise e demissões na mídia](http://observatoriodaimprensa.com.br/imprensa-em-questao/crise-e-demissoes-na-midia/) - Julyete Farias Louly - Observatório da Imprensa (Ed. 846) - 14/04/2015
 *   [A revoada dos passaralhos](http://apublica.org/2013/06/revoada-dos-passaralhos/) - Bruno Fonseca, Camila Rodrigues, Luiza Bodenmüller, Natalia Viana - Agência Pública - 10/06/2014
@@ -57,10 +71,10 @@ Por se tratar dezenas de empresas e grupos diferentes, além de ter sido um leva
 *   [Demissões em massa em jornais e revistas geram debate sobre precarização e futuro do jornalismo no Brasil](https://knightcenter.utexas.edu/pt-br/blog/00-14028-demissoes-em-massa-em-jornais-e-revistas-geram-debate-sobre-precarizacao-e-futuro-do-j) - Natalia Mazzote - Knight Center For Journalism in the Americas - 14/06/2013
 *   [Como o jornalismo empreendedor está decolando no Brasil](https://ijnet.org/en/blog/how-entrepreneurial-journalism-taking-brazil) - IJNet - 09/06/2015
 
-##### Fontes
+#### Fontes
 
-*   [Tabela (CSV) sobre demissões de jornalistas levantada pelo Volt](https://docs.google.com/spreadsheets/d/12TIuxaVN-_nAE6ZrX2lveuIDdx9Xr4zKddV9KAJqAxY/edit?usp=sharing)
-*   [Tabela (CSV) de dados do Caged sobre profissionais de jornalismo](https://docs.google.com/spreadsheets/d/1cIOtA5xzsg5nq6FsAUPGb_-r-JLvefbtzihAz2x0i0o/edit?usp=sharing)
+*   [Tabela sobre demissões de jornalistas levantada pelo Volt](https://docs.google.com/spreadsheets/d/12TIuxaVN-_nAE6ZrX2lveuIDdx9Xr4zKddV9KAJqAxY/edit?usp=sharing)
+*   [Tabela (CSV) de dados do Caged sobre profissionais de jornalismo até meados de 2015](https://docs.google.com/spreadsheets/d/1cIOtA5xzsg5nq6FsAUPGb_-r-JLvefbtzihAz2x0i0o/edit?usp=sharing)
 *   [Lei de Acesso à Informação (LAI) do Governo Federal](http://www.acessoainformacao.gov.br)
 *   [Cadastro Geral de Empregados e Desempregados (Caged)](http://portal.mte.gov.br/caged/cadastro-geral-de-empregados-e-desempregados-caged.htm)
 *   [Pesquisa Brasileira de Mídia 2015](http://www.secom.gov.br/atuacao/pesquisa/lista-de-pesquisas-quantitativas-e-qualitativas-de-contratos-atuais/pesquisa-brasileira-de-midia-pbm-2015.pdf)- Secretaria de Comunicação Social da Presidência da República
