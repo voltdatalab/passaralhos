@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   color: #333;
 }
 
@@ -88,10 +88,10 @@ h3, h4, h5 {
 }
 
 .numeros {
-  font-size: 1.2em;
+  font-size: 1.7em;
   color: #a7000c;
   text-transform: none;
-  font-family: Inconsolata, sans-serif;
+  font-family: 'Aldrich', sans-serif;
   margin-top: 0;
 }
 
@@ -293,7 +293,8 @@ footer{
   background-color: #cbcbcb;
   margin-top: 80px;
   padding: 50px 0 30px 0px;
-  height: 220px;
+  min-height: 250px;
+  width: 100%
 }
 
 footer h6{
@@ -316,4 +317,23 @@ footer a:hover{
 
 .direita {
   float: right;
+}
+
+.break {
+  padding: 120px 0;
+  background-color: #ededed;
+  margin: 100px 0;
+}
+
+@media (max-width: 720px) {
+  .direita {
+    float: left;
+    margin-top: 1px solid #000;
+  }
+  .esquerda {
+    float: left;
+  }
+  footer{
+    height: 500px;
+  }
 }

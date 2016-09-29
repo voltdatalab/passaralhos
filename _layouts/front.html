@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
 {% include head.html %}
 </head>
 <body>
@@ -15,17 +16,22 @@
     <h1><a href="index.html">{{ site.tag_text }}</a></h1>
     <h2>{{ site.description }}</h2>
     {% include nav.html %}
-    <hr />
-    <p><strong class="numeros">{{ site.jornalistas}}</strong> demissões de jornalistas em redações</p>
-    <p><strong class="numeros">{{ site.total}}</strong> demissões totais de empresas de mídia </p>
-    <p><small><em>{{ site.atualizacao }}</em></small></p>
-    <hr /> <br />
+    </div>
+    <div class="break">
+      <div class="container">
+    <p><strong class="numeros">{{ site.jornalistas}}</strong> demissões de jornalistas em redações desde 2012</p>
+    <p><strong class="numeros">{{ site.total}}</strong> demissões totais em empresas de mídia </p>
+    <p><small><em>Última atualização em {{ site.atualizacao }}</em></small></p>
+      </div>
+    </div>
+      </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/d3.js"></script>
     <script src="js/d3plus.js"></script>
+    <div class="container">
     <div id="grafico"> </div>
     <script src="graficos/principal.js"></script>
-    <hr /> <br />
+    <br />
     {{ content }}
   </div>
   {% include footer.html %}

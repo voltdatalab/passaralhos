@@ -21013,7 +21013,7 @@ module.exports = function(params) {
           .style("color","#fff")
           .style("cursor","pointer")
           .style("display","inline-block")
-          .style("font-size","8px")
+          .style("font-size","12px")
           .style("font-weight","bold")
           .style("height","10px")
           .style("margin","3px 0px 0px 3px")

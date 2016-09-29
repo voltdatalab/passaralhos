@@ -19,10 +19,10 @@ var json = (function () {
   var visualization = d3plus.viz()
     .container("#grafico")
     .data(json)
-    .height({"max": 600, "value":600})
+    .height({"max": 900, "value":900})
     .type("tree_map")
     .id(["midia", "veiculo", "ano"])
-    .legend({"size": 50, "filters": "true"})
+    .legend({"size": 75})
     .color({"scale": ['#252235','#E1E4E8','#828BA0','#a7000c','#E23B22'], "value": "midia"})
     .size("jornalistas")
     .title({"value": "Quadro completo sobre demissões de jornalistas", "font":{"size": "30px"}})
@@ -39,8 +39,8 @@ var json = (function () {
     .margin( "0px 0px" )
     .tooltip({"background":"#ededed"})
     .font({"family": "Inconsolata"})
-  .labels({"align": "center", "valign": "top", "padding": 50, "resize": true})
-  .time({"value": "ano"})
+    .labels({"align": "center", "valign": "top", "padding": 50, "resize": true})
+    .time({"value": "ano"})
     .ui([
       {
         "method" : "size",
