@@ -6,7 +6,7 @@ layout: default
 
 ---
 
-- [Com redações reduzidas, demissões de jornalistas caem em 2016](https://medium.com/volt-data-lab/com-reda%C3%A7%C3%B5es-reduzidas-demiss%C3%B5es-de-jornalistas-caem-em-2016-a811681e1637#.oqouk6raw) - Volt Data Lab - 2016
+- [Com redações reduzidas, demissões de jornalistas caem em 2016](http://bit.ly/2cEcFbj) - Volt Data Lab - 2016
 - [A conta dos passaralhos](http://bit.ly/2cIQxeQ) - Volt Data Lab - 2015
 - [O silêncio dos passaralhos](http://bit.ly/2cIR54p) - Volt Data Lab - 2015
 - [Uma notícia velha: as demissões no jornalismo](http://www.braziljournal.com/demissoes-no-jornalismo-ja-sao-noticia-velha)
