@@ -141,7 +141,7 @@ hr {
 .nav {
   padding: 0;
   margin: 60px 20px 20px 0;
-  width: 600px
+  width: 100%;
 }
 
 .nav li{
@@ -332,8 +332,10 @@ footer a:hover{
   }
   .esquerda {
     float: left;
+    max-width: 100%;
+    margin: 0
   }
   footer{
-    height: 500px;
+    height: 450px;
   }
 }
