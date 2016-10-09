@@ -22,6 +22,7 @@
     <p><strong class="numeros">{{ site.jornalistas}}</strong> demissões de jornalistas em redações desde 2012</p>
     <p><strong class="numeros">{{ site.total}}</strong> demissões totais em empresas de mídia </p>
     <p><small><em>Última atualização em {{ site.atualizacao }}</em></small></p>
+      {{ content }}
       </div>
     </div>
       </div>
@@ -32,7 +33,6 @@
     <div id="grafico"> </div>
     <script src="graficos/principal.js"></script>
     <br />
-    {{ content }}
   </div>
   {% include footer.html %}
   {% include scripts.html %}
