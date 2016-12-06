@@ -19,7 +19,7 @@ var json = (function () {
   var visualization = d3plus.viz()
     .container("#grafico")
     .data(json)
-    .height({"max": 900, "value":900})
+    .height({"max": 750, "value":750})
     .type("tree_map")
     .id(["midia", "veiculo", "ano"])
     .legend({"size": 75})

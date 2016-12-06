@@ -28,6 +28,7 @@ var json = (function () {
     .size("jornalistas")
     .color({"heatmap": ['#252235','#E1E4E8','#828BA0','#a7000c','#E23B22'], "value": "jornalistas"})
     .legend(false)
+    .padding(400)
     .format("pt_BR")
     .font({"family": "Inconsolata"})
     .ui([
