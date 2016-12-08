@@ -1954,5 +1954,17 @@
 		"fonte": "Blog Sidney Rezende",
 		"link": "http://www.sidneyrezende.com/brasil/cbn-desmonta-equipe-esportes/",
 		"obs": null
+	},
+	{
+		"veiculo": "Grupo Folha",
+		"midia": "Jornal",
+		"ano": 2016,
+		"mes": "2016-12-07",
+		"total": 6,
+		"jornalistas": 4,
+		"manchete": "Em 5° passaralho do ano, Folha demite correspondente em Washington, colunista e jornalistas",
+		"fonte": "Portal Comunique-se",
+		"link": "http://portal.comunique-se.com.br/jo-com/83023-em-5-passaralho-do-ano-folha-demite-correspondente-em-washington-colunista-e-jornalistas",
+		"obs": null
 	}
 ]
