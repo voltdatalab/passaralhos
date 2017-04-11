@@ -28,7 +28,7 @@ var json = (function () {
     .title({"value": "Quadro completo sobre demissões de jornalistas", "font":{"size": "30px"}})
     .title({
       "sub": {"font": {"size": 20},
-      "value": "Gráfico interativo - pesquise por ano, mídia e veículo"} ,
+      "value": "Pesquise por ano, mídia principal do grupo e veículo"} ,
       "total": false
     })
     .footer({
