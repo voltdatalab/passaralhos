@@ -2,9 +2,9 @@
 title: A Conta dos Passaralhos
 tag_text: A Conta dos Passaralhos
 description: Um panorama sobre demissões de jornalistas nas redações do Brasil desde 2012.
-jornalistas: 1646
-total: 5750
-atualizacao: 08/12/2016
+jornalistas: 1811
+total: 5984
+atualizacao: 11/04/2017
 
 # Build settings
 markdown: kramdown
