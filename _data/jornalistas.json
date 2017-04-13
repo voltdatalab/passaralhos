@@ -2206,5 +2206,17 @@
 		"fonte": "Jornalistas e Cia",
 		"link": "http://www.jornalistasecia.com.br/edicoes/jornalistasecia1097gp12.pdf",
 		"obs": null
+	},
+	{
+		"veiculo": "Correio do Estado",
+		"midia": "Jornal",
+		"ano": 2017,
+		"mes": "2017-04-13",
+		"total": 20,
+		"jornalistas": 13,
+		"manchete": "Jornal de maior circulação do MS demite mais de 10 profissionais",
+		"fonte": "Portal Comunique-se",
+		"link": "http://portal.comunique-se.com.br/jornal-de-maior-circulacao-ms-demite-mais-de-10-profissionais/",
+		"obs": null
 	}
 ]
