@@ -19,11 +19,11 @@ var json = (function () {
   var visualization = d3plus.viz()
     .container("#grafico")
     .data(json)
-    .height({"max": 750, "value":750})
+    .height({"max": 650, "value":750})
     .type("tree_map")
     .id(["midia", "veiculo", "ano"])
     .legend({"size": 75})
-    .color({"scale": ['#252235','#E1E4E8','#828BA0','#a7000c','#E23B22'], "value": "midia"})
+    .color({"scale": ['#9ecae1','#6baed6','#4292c6','#2171b5','#08519c'], "value": "midia"})
     .size("jornalistas")
     .title({"value": "Quadro completo sobre demissões de jornalistas", "font":{"size": "30px"}})
     .title({

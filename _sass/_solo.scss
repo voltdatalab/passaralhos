@@ -22,7 +22,7 @@ body {
 }
 
 a {
-  color: #a7000c;
+  color: #386cb0;
   text-decoration: underline;
   font-weight: 700;
 }
@@ -94,7 +94,7 @@ h4 {
 
 .numeros {
   font-size: 1.7em;
-  color: #a7000c;
+  color: #386cb0;
   text-transform: none;
   font-family: 'Aldrich', sans-serif;
   margin-top: 0;
@@ -154,22 +154,22 @@ hr {
   padding: 3px;
   font-size: .7em;
   text-transform: uppercase;
-  border-bottom: 3px solid #a7000c;
-  border-top: 3px solid #a7000c;
-  color: #a7000c;
+  border-bottom: 3px solid #386cb0;
+  border-top: 3px solid #386cb0;
+  color: #386cb0;
   line-height: 1.8em;
 }
 
 .nav li:hover{
   display: inline-block;
   padding: 3px;
-  background-color: #a7000c;
+  background-color: #386cb0;
   color: #fff;
 }
 
 .nav li a{
   text-decoration: none;
-  color: #a7000c;
+  color: #386cb0;
 }
 
 .nav li a:hover, .nav ul a:hover{
@@ -214,7 +214,7 @@ pre > code {
 /* Header */
 
 #header {
-    background-color: #a7000c;
+    background-color: #e6e6e6;
     margin: 0 0 3rem 0;
     padding: 0;
     position: relative;
@@ -225,11 +225,15 @@ pre > code {
 
 .dropbtn {
     background-color: rgba(0, 0, 0, 0);
-    color: white;
+    color: #777;
     padding: 16px;
     font-size: 22px;
     border: none;
     cursor: pointer;
+}
+
+.dropbtn:hover{
+    color: #fff;
 }
 
 
@@ -280,7 +284,7 @@ pre > code {
 /* Menu background */
 
 .dropdown:hover .dropbtn {
-    background-color: #a7000c;
+    background-color: #386cb0;
 }
 
 #logo {
@@ -313,7 +317,7 @@ footer a{
 }
 
 footer a:hover{
-  color: #a7000c
+  color: #386cb0
 }
 
 .esquerda {

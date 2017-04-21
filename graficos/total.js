@@ -26,7 +26,7 @@ var json = (function () {
     .tooltip({"background":"#ededed"})
     .y("mes")
     .size("jornalistas")
-    .color({"heatmap": ['#252235','#E1E4E8','#828BA0','#a7000c','#E23B22'], "value": "jornalistas"})
+    .color({"heatmap": ['#9ecae1','#6baed6','#4292c6','#2171b5','#08519c'], "value": "jornalistas"})
     .legend(false)
     .padding(400)
     .format("pt_BR")
