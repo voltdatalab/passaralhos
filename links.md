@@ -4,6 +4,8 @@ layout: default
 
 Nesta seção estão alguns links de reportagens e artigos acadêmicos que utilizaram "A Conta dos Passaralhos" como fonte.
 
+---
+
 #### Publicações que utilizaram "A Conta dos Passaralhos" como fonte
 
 - [O Sujeito Oculto](http://piaui.folha.uol.com.br/materia/o-sujeito-oculto/) - Revista piauí - 12/2015
@@ -27,9 +29,9 @@ Nesta seção estão alguns links de reportagens e artigos acadêmicos que utili
 - [A conta dos passaralhos](http://bit.ly/2cIQxeQ) - Volt Data Lab - 2015
 - [Um banco de dados sobre demissões de jornalistas no Brasil](http://bit.ly/1E6tdLq) - Volt Data Lab - 2015
 
-#### Publicações relacionadas
-
 ---
+
+#### Publicações relacionadas
 
 - [O silêncio dos passaralhos](http://bit.ly/2cIR54p) - Volt Data Lab - 2015
 - [Crise e demissões na mídia](http://observatoriodaimprensa.com.br/imprensa-em-questao/crise-e-demissoes-na-midia/) - Observatório da Imprensa - 14/04/2015
