@@ -2218,5 +2218,53 @@
 		"fonte": "Portal Comunique-se",
 		"link": "http://portal.comunique-se.com.br/jornal-de-maior-circulacao-ms-demite-mais-de-10-profissionais/",
 		"obs": null
+	},
+	{
+		"veiculo": "UOL",
+		"midia": "Online",
+		"ano": 2017,
+		"mes": "2017-04-17",
+		"total": 9,
+		"jornalistas": 9,
+		"manchete": "UOL promove mudanças e programação de conteúdo do UOL Música Deezer é incerta",
+		"fonte": "Portal Comunique-se",
+		"link": "http://portal.comunique-se.com.br/uol-promove-mudancas-e-programacao-de-conteudo-uol-musica-deezer-e-incerta/",
+		"obs": null
+	},
+	{
+		"veiculo": "Correio do Estado",
+		"midia": "Jornal",
+		"ano": 2017,
+		"mes": "2017-04-18",
+		"total": 20,
+		"jornalistas": 13,
+		"manchete": "Demissões no Correio do Estado-MS",
+		"fonte": "Portal dos Jornalistas",
+		"link": "http://www.portaldosjornalistas.com.br/noticia/demissoes-no-correio-estado-ms",
+		"obs": null
+	},
+	{
+		"veiculo": "CBN",
+		"midia": "Rádio e TV",
+		"ano": 2017,
+		"mes": "2017-04-18",
+		"total": 1,
+		"jornalistas": 1,
+		"manchete": "Demitido da CBN, Ethevaldo Siqueira afirma que diretor transformará a rádio em “uma emissora qualquer”",
+		"fonte": "Portal Comunique-se",
+		"link": "http://portal.comunique-se.com.br/demitido-da-cbn-ethevaldo-siqueira-afirma-que-diretor-transformara-radio-em-uma-emissora-qualquer/",
+		"obs": null
+	},
+	{
+		"veiculo": "Ego",
+		"midia": "Online",
+		"ano": 2017,
+		"mes": "2017-04-18",
+		"total": 9,
+		"jornalistas": 9,
+		"manchete": "Rede Globo extingue portal Ego",
+		"fonte": "Jornalistas e Cia",
+		"link": "http://www.jornalistasecia.com.br/edicoes/jornalistasecia1098ll19.pdf",
+		"obs": null
 	}
 ]
