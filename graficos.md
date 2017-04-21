@@ -10,7 +10,7 @@ Organizado por ano, data da ocorrência e montande de demitidos
 
 <iframe src="http://graficos.voltdata.info/posts/random/scatter_passaralhos.html" width="100%" height="900" frameborder="no" seamless scrolling="no"> </iframe>
 
-###### *Fonte: Levantamento Volt Data Lab*
+###### Fonte: Levantamento Volt Data Lab
 
 ---
 
@@ -20,4 +20,4 @@ Organizado por ano, data da ocorrência e montande de demitidos
 
 <iframe src="http://graficos.voltdata.info/posts/random/barchart_passaralhos.html" width="100%" height="1000" frameborder="no" seamless scrolling="no"> </iframe>
 
-###### *Fonte: Levantamento Volt Data Lab*
+###### Fonte: Levantamento Volt Data Lab

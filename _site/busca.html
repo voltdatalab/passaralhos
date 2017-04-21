@@ -1,0 +1,1879 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Um panorama sobre demissões de jornalistas nas redações do Brasil desde 2012.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Conta dos Passaralhos</title>
+  <link rel="stylesheet" href="css/main.css">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Um panorama sobre demissões de jornalistas nas redações do Brasil desde 2012.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Conta dos Passaralhos</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" type="image/png" href="https://farm1.staticflickr.com/264/20100203168_2ecd6fa75e_s.jpg">
+  <!-- METAS -->
+    <meta name='keywords' content='passaralhos, demissões de jornalistas, voltdatalab, jornalismo de dados, jornalismo, jornalistas, a conta dos passaralhos'>
+    <meta name='description' content='Um panorama sobre demissões de jornalistas nas redações do Brasil'>
+    <meta name='subject' content='jornalismo de dados'>
+    <meta name='copyright' content='Volt Data Lab - www.voltdata.info'>
+    <meta name='language' content='PT'>
+    <meta name='robots' content='index,follow'>
+    <meta name='revised' content='Criado em 2 de agosto de 2015'>
+    <meta name='author' content='Volt Data Lab'>
+    <meta name='designer' content=''>
+    <meta name='reply-to' content='info@voltdata.info'>
+    <meta name='owner' content=''>
+    <meta name='url' content='http://passaralhos.voltdata.info'>
+    <meta name='identifier-URL' content='http://passaralhos.voltdata.info'>
+    <meta name='pagename' content='A Conta dos Passaralhos'>
+    <meta name='coverage' content='Brasil'>
+    <meta name='distribution' content='Global'>
+    <meta name='rating' content='General'>
+    <meta name='subtitle' content='Um panorama sobre demissões de jornalistas nas redações do Brasil'>
+    <meta name='target' content='all'>
+    <meta name='HandheldFriendly' content='True'>
+    <meta name='MobileOptimized' content='320'>
+    <meta property="og:image" content="https://github.com/voltdatalab/passaralhos/blob/gh-pages/foto.jpg?raw=true" />
+    <meta property="og:url" content="http://passaralhos.voltdata.info">
+    <meta property="og:title" content="A Conta dos Passaralhos">
+    <meta property="og:description" content="Um panorama sobre demissões de jornalistas no Brasil a partir de 2012">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65921164-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+</head>
+<body>
+  <div id="header">
+        <a href="index.html" target="_blank"> <img src="logo.png" alt="logo" id="logo"> </a>
+        <div class="dropdown">
+            <button class="dropbtn"><i class="fa fa-bars fa-lg" aria-hidden="true"></i> </button>
+            <div class="dropdown-content">
+            <a href="http://www.voltdata.info/passaralhos/" target="_blank">Informe demissões</a>
+            <a href="index.html">Início</a>
+            <a href="busca.html">Busca avançada</a>
+            <a href="links.html">Artigos</a>
+            <a href="metodologia.html">Metodologia</a>
+            <a href="graficos.html">Gráficos</a>
+            <a href="https://raw.githubusercontent.com/voltdatalab/passaralhos/gh-pages/_data/jornalistas.json">Nossa API</a>
+
+            <a href="http://voltdata.info" target="_blank">Site do Volt <i class="fa fa-external-link" aria-hidden="true"></i></a> </div>
+        </div>
+</div>
+
+  <div class="container">
+    <h1><a href="index.html">A Conta dos Passaralhos</a></h1>
+    <h2>Um panorama sobre demissões de jornalistas nas redações do Brasil desde 2012.</h2>
+    <ul class="nav">
+  <a href="busca.html"><li>Busca avançada</li></a>
+  <a href="graficos.html"><li>Gráficos</li></a>
+  <a href="links.html"><li>Artigos</li></a>
+  <a href="sobre.html"><li>O projeto</li></a>
+  <a href="metodologia.html"><li>Metodologia</li></a>
+  <a href="http://www.voltdata.info/passaralhos/" target="_blank"><li>Informe demissões</li></a>
+</ul>
+
+<h6 style="text-transform:uppercase;">Compartilhe:
+  <a href="http://twitter.com/share?text=A Conta dos Passaralhos, um panorama sobre demissões de jornalistas no Brasil @voltdatalab &url=http://bit.ly/passaralhos" target="_blank">
+  <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//bit.ly/passaralhos" target="_blank"><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></a>
+  - <span id="perma">http://bit.ly/passaralhos</span>
+
+</h6>
+
+    <hr />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/list.js"></script>
+
+<p>Nesta seção você poderá realizar buscas por veículo, mídia, ano,
+  total de jornalistas demitidos, total de funcionários demitidos e acessar as fontes de referência para o corte
+  específico.</p>
+<p>Alguns sites que serviram de referência passaram por reformulações, portanto certos links
+  podem estar "quebrados", com sua URL alterada.</p>
+<p>Para exportar os dados filtrados, basta copiar e colar. Você também pode acessar
+  <a href="https://raw.githubusercontent.com/voltdatalab/passaralhos/gh-pages/_data/jornalistas.json" target="_blank">a API</a>
+  com todos os dados.</p>
+  <br />
+
+<div id="entry-list">
+<div class="row" style="margin-bottom:10px;">
+		<input id="toolSearch" type="text" class="search form-control" placeholder="Busque aqui, ex. Folha ou 2017" />
+</div>
+
+<div class="row">
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th style="width:30%;"><span class="sort" data-sort="veiculo">Veículo</span></th>
+			<th style="width:20%;"><span class="sort" data-sort="midia">Mídia</span></th>
+			<th style="width:10%;text-align:center"><span class="sort" data-sort="ano">Ano</span></th>
+			<th style="width:10%;text-align:center"><span class="sort" data-sort="jornalistas">Jornalistas</span></th>
+      <th style="width:10%;text-align:center"><span class="sort" data-sort="jornalistas">Total</span></th>
+      <th style="width:10%;"><span class="sort" data-sort="jornalistas">Fonte</span></th>
+		</tr>
+	</thead>
+	<tbody class="list">
+	
+		<tr>
+			<td class="veiculo">Editora Abril</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">4</td>
+      <td class="total">4</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/imprensa/67652-editora-abril-demite-quatro-diretores-de-redacao" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Record</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">2</td>
+      <td class="total">2</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/imprensa/67737-r7-demite-editores-reporteres-e-estagiarios" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Bandeirantes</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">12</td>
+      <td class="total">20</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/46979/band+rio+demite+jornalistas+e+encerra+programa+de+cidinha+campos" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Bandeirantes</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">7</td>
+      <td class="total">7</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/47024/alem+de+luiz+ceara+outros+seis+sao+demitidos+da+equipe+de+esportes+da+band" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Bandeirantes</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">2</td>
+      <td class="total">17</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/imprensa/67903-band-acaba-com-a-producao-de-dois-programas-e-demite-jornalistas" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">TV Cultura</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">2</td>
+      <td class="total">50</td>
+      <td class="jornalistas"><a href=" http://www1.folha.uol.com.br/fsp/poder/30214-cultura-demite-50-funcionarios-e-muda-programas-classicos.shtml" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rede TV!</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">1</td>
+      <td class="total">190</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/47889/redetv+volta+atras+na+demissao+de+milene+domingues+mas+mantem+cortes+no+esporte" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rádio Globo/CBN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/editorias/17-destaque-home/68729--contencao-de-gastos-provoca-demissao-do-gerente-nacional-da-radio-globo-marcus-aurelio.html" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">RIT TV</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">10</td>
+      <td class="total">50</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/editorias/28-carreira/68961-rit-tv-demite-mais-de-10-jornalistas-em-corte-que-atinge-cerca-de-50-profissionais.html" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Jornal A Tarde</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">20</td>
+      <td class="total">80</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php?option=com_content&view=article&id=69242:jornal-a-tarde-demite-cerca-de-80-funcionarios-mais-de-20-sao-jornalistas&catid=17:destaque-home&Itemid=20" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">iG</td>
+			<td class="midia">Online</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">12</td>
+      <td class="total">12</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/53725/portal+ig+promove+cortes+demissoes+podem+chegar+a+30+da+redacao" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Diário de Natal</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">0</td>
+      <td class="total">30</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/editorias/28-carreira/69910-diario-de-natal-demite-jornalistas-e-anuncia-fim-da-versao-impressa.html" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Record</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">30</td>
+      <td class="total">30</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/54713/com+reformulacao+na+grade+record+news+demite+70+da+redacao" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Editora Três (IstoÉ)</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">6</td>
+      <td class="total">6</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/imprensa/70381-istoe-gente-demite-seis-jornalistas-e-passa-a-ser-mensal" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Terra</td>
+			<td class="midia">Online</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">0</td>
+      <td class="total">150</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/55497/portal+terra+promove+cortes+de+pessoal+cerca+de+150+sao+demitidos" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">InfoMoney</td>
+			<td class="midia">Online</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">6</td>
+      <td class="total">9</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/editorias/17-destaque-home/70445-infomoney-encerra-contrato-com-parceiras-e-demite-seis-jornalistas.html" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Editora Abril</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">4</td>
+      <td class="total">4</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/55579/apos+negar+fechamento+editora+abril+diz+que+quatro+rodas+moto+sera+descontinuada" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">TV Climatempo</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2012</td>
+			<td class="jornalistas">0</td>
+      <td class="total">25</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/imprensa/70494-tv-climatempo-demite-jornalistas-e-corre-risco-de-ser-fechada" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Revista Trip</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">2</td>
+      <td class="total">2</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/56431/revista+trip+passa+por+reestruturacao+financeira+e+demite+jornalistas" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">O Vale</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">8</td>
+      <td class="total">9</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/56395/reporteres+de+jornais+de+sao+jose+dos+campos+sp+entram+em+estado+de+greve" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Sistema Jangadeiro</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">9</td>
+      <td class="total">9</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/editorias/17-destaque-home/71044-afiliada-da-band-no-ceara-dispensa-nove-da-equipe-de-jornalismo.html" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Caros Amigos</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">11</td>
+      <td class="total">11</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/57274/caros+amigos+demite+todos+os+funcionarios+em+greve+por+quebra+de+confianca" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">RBS</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">14</td>
+      <td class="total">14</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/57547/sindicato+dos+jornalistas+de+sc+repudia+demissoes+em+massa+no+grupo+rbs" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Reuters</td>
+			<td class="midia">Agência</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">4</td>
+      <td class="total">4</td>
+      <td class="jornalistas"><a href=" " target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Estado</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">20</td>
+      <td class="total">31</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/58165/apos+periodo+de+demissoes+estadao+estreia+novo+formato" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Bandeirantes</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">0</td>
+      <td class="total">30</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/57829/em+nota+sindicato+dos+jornalistas+repudia+demissoes+da+band+em+barra+mansa+rj" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Record</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">4</td>
+      <td class="total">10</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/imprensa/71451-record-de-ribeirao-preto-demite-dez-funcionarios" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">CNT Curitiba</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">8</td>
+      <td class="total">48</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/11-editorias/comunicacao/71474-cnt-de-curitiba-promove-demissoes-e-fica-sem-equipe-de-reportagem" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Ejesa</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">24</td>
+      <td class="total">24</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/57971/brasil+economico+anuncia+novo+projeto+grafico+e+sede+no+rj+em+meio+a+crise" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Jovem Pan</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/imprensa/71572-reporter-e-demitido-da-jovem-pan-depois-de-19-anos-na-emissora" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Valor Econômico</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">50</td>
+      <td class="total">50</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/especiais/71894-passaralho-valor-economico-demite-50-profissionais-cortes-afetam-a-redacao" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Folha</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">5</td>
+      <td class="total">5</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/em-revista/71970-passaralho-folha-demite-vencedora-do-premio-esso-e-encerra-ilustrissima" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Folha de Pernambuco</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">9</td>
+      <td class="total">9</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/59161/folha+de+pernambuco+demite+nove+profissionais+de+varias+editorias" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Record</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">0</td>
+      <td class="total">300</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/jo-com/71993-apos-300-demissoes-record-perde-gugu-liberato" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Editora Abril</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">0</td>
+      <td class="total">7</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/59235/editora+abril+demite+diretores+de+nucleo+ate+dez+titulos+podem+ser+fechados" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Infoglobo</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">10</td>
+      <td class="total">10</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/59701/o+globo+realiza+mudancas+editoriais+encerra+suplemento+formou+e+faz+cortes+na+redacao" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rede TV!</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">30</td>
+      <td class="total">30</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/acontece/72210-com-programa-extinto-rede-tv-demite-30-profissionais-do-jornalismo" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rede TV!</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">3</td>
+      <td class="total">3</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/sub-destaque-home/72225-mais-demissoes-na-rede-tv-departamento-de-esporte-sofre-tres-baixas" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rede Minas</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">0</td>
+      <td class="total">50</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/59293/em++meio+a+crise+rede+minas+de+televisao+pode+ter+corte+de+funcionarios" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Bandeirantes</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">5</td>
+      <td class="total">5</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/60432/radio+bandeirantes+reestrutura+emissora+e+demite+mauro+beting+ha+outros+cortes" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Editora Abril</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">71</td>
+      <td class="total">150</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/60626/apos+acordo+editora+abril+pagara+pacote+de+beneficios+para+os+jornalistas+demitidos" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Bandeirantes</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">2</td>
+      <td class="total">2</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/imprensa/72599-band-demite-jornalistas-e-encerra-programa-local-do-triangulo-mineiro" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">SBT</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">0</td>
+      <td class="total">60</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/61026/sbt+confirma+demissao+de+cerca+de+60+funcionarios" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">MTV</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">0</td>
+      <td class="total">300</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/61023/fim+da+mtv+gerou+cerca+de+300+demissoes" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">ESPN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/61109/espn+brasil+demite+flavio+gomes+por+declaracoes+contra+o+gremio+no+twitter" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">SBT</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/61128/apos+ser+afastada+do+jornal+da+manha+sbt+dispensa+analice+nicolau" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">TV dos Trabalhadores</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">17</td>
+      <td class="total">17</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/61672/tvt+e+abcd+maior+iniciam+cortes+de+30+da+redacao" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">ABCD Maior</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">10</td>
+      <td class="total">10</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/61672/tvt+e+abcd+maior+iniciam+cortes+de+30+da+redacao" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Correio Braziliense</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">6</td>
+      <td class="total">36</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/61737/correio+braziliense+dispensa+seis+jornalistas+cortes+contabilizam+36+funcionarios" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Jornal Hoje em Dia</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">25</td>
+      <td class="total">25</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/jo-com/73253-passaralho-jornal-hoje-em-dia-demite-mais-de-20-da-redacao" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">RBA TV</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">4</td>
+      <td class="total">4</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/62339/apos+periodo+de+estabilidade+grupo+rba+demite+jornalistas+que+lideraram+greve" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Época</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2013</td>
+			<td class="jornalistas">8</td>
+      <td class="total">8</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/62927/apos+fim+da+epoca+sp+editora+globo+demite+equipe+da+revista" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">SBT</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">3</td>
+      <td class="total">3</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/63854/sbt+demite+comentaristas+para+reduzir+espaco+opinativo+em+seus+telejornais" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Folha</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/revista_imprensa/conteudo-extra/69764/imprensa+relembra+as+noticias+que+movimentaram+a+midia+em+2015" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Correio Braziliense</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">6</td>
+      <td class="total">70</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/65601/apos+cortes+no+correio+braziliense+sindicato+aguarda+lista+de+funcionarios+demitidos" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">TV Senado</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">0</td>
+      <td class="total">85</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/65717/tv+senado+demite+40+dos+funcionarios+terceirizados+sindicato+repudia+os+cortes" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Gazeta do Povo</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">23</td>
+      <td class="total">23</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/imprensa/75100-passaralho-sindicato-acusa-gazeta-do-povo-de-cometer-erros-de-gestao" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Gazeta do Povo</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">14</td>
+      <td class="total">14</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/imprensa/75100-passaralho-sindicato-acusa-gazeta-do-povo-de-cometer-erros-de-gestao" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">RBS</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">40</td>
+      <td class="total">130</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/especiais/74940-ao-negar-crise-financeira-grupo-rbs-demite-40-jornalistas-em-reestruturacao" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Terra</td>
+			<td class="midia">Online</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">50</td>
+      <td class="total">100</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/67460/terra+demite+pelo+menos+100+funcionarios+redacao+e+a+area+mais+afetada" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Editora Abril</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">0</td>
+      <td class="total">20</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/67712/editora+abril+demite+executivos+e+reformula+uns+para+ganhar+forca+no+mercado+publicitario" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Lance</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">30</td>
+      <td class="total">37</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/68418/redacao+do+lance+no+rj+demite+jornalistas+para+se+adequar+ao+mercado" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">ESPN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">10</td>
+      <td class="total">10</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/68473/espn+demite+dez+jornalistas+mudancas+visam+renovacao+do+quadro+de+funcionarios" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Estado</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">3</td>
+      <td class="total">3</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/68586/radio+estadao+demite+dois+apresentadores+e+um+reporter+na+mesma+semana" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Diário do Comércio</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">20</td>
+      <td class="total">20</td>
+      <td class="jornalistas"><a href=" http://www.portaldosjornalistas.com.br/noticias-conteudo.aspx?id=3080" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rádio Gaúcha</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">3</td>
+      <td class="total">3</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/artigos-colunas/75573-radio-gaucha-demite-reporteres" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Jovem Pan</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/69154/jovem+pan+dispensa+fernando+zamith+apos+23+anos+e+nega+novos+cortes+na+equipe" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Gazeta do Povo</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">5</td>
+      <td class="total">5</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/69155/gazeta+do+povo+faz+nova+leva+de+cortes+e+fecha+duas+sucursais+sindicato+protesta" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo RAC</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">0</td>
+      <td class="total">15</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/69198/grupo+rac+demite+15+funcionarios+por+problemas+financeiros+e+admite+novos+cortes" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Folha</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">24</td>
+      <td class="total">24</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/69418/existe+vida+alem+da+folha+existe+vida+alem+do+impresso+afirma+eliane+cantanhede" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Folha de Londrina</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">8</td>
+      <td class="total">20</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/69437/folha+de+londrina+demite+20+funcionarios+para+reduzir+custos+sindicatos+repudiam" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Reuters</td>
+			<td class="midia">Agência</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" " target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Estado</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2014</td>
+			<td class="jornalistas">2</td>
+      <td class="total">2</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/69770/bruno+paes+manso+e+tutty+vasques+sao+demitidos+do+estadao+por+corte+de+gastos" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">O Estado de Minas</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">11</td>
+      <td class="total">11</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/70190/em+crise+o+jornal+o+estado+de+minas+promove+a+demissao+de+11+jornalistas" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Infoglobo</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">30</td>
+      <td class="total">160</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/70198/o+globo+faz+cortes+na+redacao+demite+artur+xexeo+e+outros+jornalistas" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Folha</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">5</td>
+      <td class="total">5</td>
+      <td class="jornalistas"><a href=" http://www.portaldosjornalistas.com.br/noticia/folha-s-paulo-corta-cinco-profissionais-em-ribeirao-preto" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Valor Econômico</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">0</td>
+      <td class="total">5</td>
+      <td class="jornalistas"><a href=" http://portaldosjornalistas.com.br/noticias-conteudo.aspx?id=3430" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">TV Bahia</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">2</td>
+      <td class="total">37</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/71049/tv+bahia+afiliada+da+globo+demite+37+funcionarios+sindicato+tenta+reverter+cortes" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Editora Três (IstoÉ)</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">26</td>
+      <td class="total">26</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/71050/editora+tres+fecha+a+revista+istoe+gente+demite+jornalistas+e+encerra+departamentos" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Bandeirantes</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">3</td>
+      <td class="total">25</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/destaque-home/76704-band-demite-irma-de-patricia-poeta-e-mais-10-funcionarios-no-rio-grande-do-sul" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Record</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">0</td>
+      <td class="total">20</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/71411/record+demite+20+funcionarios+no+setor+de+maquinaria+sindicato+denuncia+irregularidades" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Editora Segmento</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">8</td>
+      <td class="total">20</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/71437/editora+segmento+demite+20+funcionarios+e+pode+encerrar+publicacoes+anuais" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Diario de Pernambuco</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">30</td>
+      <td class="total">100</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/71441/novo+dono+demite+mais+de+130+funcionarios+dos+jornais+diario+de+pernambuco+e+aquipe" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Bandeirantes</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">7</td>
+      <td class="total">50</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/71499/band+demite+50+profissionais+e+encerra+tres+programas+no+rio+de+janeiro" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Folha</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">0</td>
+      <td class="total">7</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/71569/agora+desliga+sete+funcionarios+cortes+podem+chegar+a+outros+veiculos+do+grupo" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Bandeirantes</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">3</td>
+      <td class="total">10</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/71568/band+demite+tres+editores+do+cafe+com+jornal+aline+midlej+deixa+a+bancada" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Estado</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">40</td>
+      <td class="total">125</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/71753/trt+proibe+estadao+de+realizar+novos+cortes+e+pode+reverter+demissoes" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Folha</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">30</td>
+      <td class="total">50</td>
+      <td class="jornalistas"><a href=" http://www.portaldosjornalistas.com.br/noticias-conteudo.aspx?id=3578" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Jovem Pan</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">3</td>
+      <td class="total">3</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/71745/apos+mais+de+50+anos+radio+jovem+pan+demite+o+jornalista+claudio+carsughi" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">SBT</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">23</td>
+      <td class="total">46</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/71780/apos+cancelar+o+telejornal+noticias+da+manha+sbt+demite+46+funcionarios" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Record</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">7</td>
+      <td class="total">7</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/71859/record+demite+jornalistas+responsaveis+por+entrevista+com+suzane+von+richthofen" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">ESPN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">0</td>
+      <td class="total">3</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/72116/espn+fecha+radio+apos+oito+anos+demite+funcionarios+e+anuncia+foco+no+digital" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Revista Piauí</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">3</td>
+      <td class="total">3</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/72143/revista+piaui+demite+tres+profissionais+em+meio+a+licenca+de+outros+reporteres" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">iG</td>
+			<td class="midia">Online</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">20</td>
+      <td class="total">20</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/ultimas_noticias/72269/ig+demite+20+jornalistas+e+diz+que+cortes+sao+reflexo+da+crise+economica+do+pais" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Editora Abril</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">84</td>
+      <td class="total">261</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/72612/sindicatos+se+reunem+para+discutir+recentes+demissoes+na+editora+abril" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Editora Três (IstoÉ)</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/72830/eumano+silva+e+demitido+e+deixa+a+diretoria+da+istoe+em+brasilia+df" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">TV Escola</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">0</td>
+      <td class="total">60</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/72850/por+corte+de+gastos+produtora+responsavel+pela+tv+escola+demite+60+funcionarios" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">SBT</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">3</td>
+      <td class="total">3</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/jo-com/77737-sem-projeto-no-sbt-neila-medeiros-e-dispensada" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">A Tribuna</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">7</td>
+      <td class="total">30</td>
+      <td class="jornalistas"><a href=" http://www.portalimprensa.com.br/noticias/brasil/73199/sete+jornalistas+sao+demitidos+do+jornal+a+tribuna+30+dispensados+no+total" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">TV Cultura</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">0</td>
+      <td class="total">100</td>
+      <td class="jornalistas"><a href=" http://televisao.uol.com.br/noticias/redacao/2015/08/11/presidente-da-tv-cultura-nega-desmonte-e-diz-que-nao-havera-mais-demissoes.htm" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">O Tempo</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">11</td>
+      <td class="total">13</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/jo-com/78109-jornal-o-tempo-demite-mais-de-10-na-redacao-e-provoca-repudio-de-sindicato" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo RAC</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">5</td>
+      <td class="total">5</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/jo-com/78228-jornal-do-interior-de-sao-paulo-demite-cinco-profissionais-da-redacao" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Terra</td>
+			<td class="midia">Online</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">60</td>
+      <td class="total">60</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/ultimas_noticias/73667/terra+reestrutura+negocio+com+corte+de+80+da+redacao+e+fechamento+de+sucursais" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rede TV!</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">8</td>
+      <td class="total">8</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/brasil/73678/redetv+demite+oito+jornalistas+para+desinchar+redacao+cortes+devem+continuar" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Vice</td>
+			<td class="midia">Online</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">2</td>
+      <td class="total">2</td>
+      <td class="jornalistas"><a href=" " target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Editora Abril</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">12</td>
+      <td class="total">12</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/ultimas_noticias/73761/editora+abril+encerra+versao+digital+da+info+12+profissionais+sao+demitidos" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Gazeta do Povo</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">11</td>
+      <td class="total">11</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/index.php/destaque-home/78316-gazeta-do-povo-demite-mais-de-10-jornalistas-reporter-premiado-internacionalmente-esta-na-lista" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Ejesa</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">30</td>
+      <td class="total">30</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/brasil/73782/em+grave+crise+financeira+o+dia+fecha+editorias+e+demite+30+jornalistas" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Estado</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">6</td>
+      <td class="total">6</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/ultimas_noticias/73934/agencia+estado+demite+jornalistas+e+alega+crise+financeira+para+os+cortes" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Infoglobo</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">40</td>
+      <td class="total">300</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/ultimas_noticias/74105/infoglobo+passa+por+nova+reestruturacao+mais+de+40+jornalistas+sao+demitidos" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Bandeirantes</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">13</td>
+      <td class="total">13</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/brasil/74417/tv+band+litoral+demite+13+jornalistas+e+justifica+cortes+por+mudancas+de+grade" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Estado</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">25</td>
+      <td class="total">30</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/brasil/74631/apos+incluir+musica+na+grade+radio+estadao+demite+funcionarios+e+fecha+area+de+esportes" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Editora Três (IstoÉ)</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">10</td>
+      <td class="total">10</td>
+      <td class="jornalistas"><a href=" http://www.meioemensagem.com.br/home/midia/noticias/2015/10/06/-Status-perde-equipe-e-passa-a-ser-trimestral.html#ixzz3nuBXnxuE " target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">ESPN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">34</td>
+      <td class="total">34</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/ultimas_noticias/74876/apos+reestruturacao+global+espn+brasil+demite+34+profissionais" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">O Popular</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">4</td>
+      <td class="total">4</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/brasil/74905/o+popular+demite+quatro+profissionais+e+pode+fazer+novos+cortes+ate+o+fim+do+ano" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Record</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">0</td>
+      <td class="total">700</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/brasil/75394/sindicato+critica+cortes+no+complexo+de+estudios+da+record+no+rj" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rádio Globo/CBN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">1</td>
+      <td class="total">2</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/79543-com-demissoes-cbn-e-radio-globo-tem-equipes-esportivas-unificadas-em-sp-leia-mais" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Jornal A Tarde</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">35</td>
+      <td class="total">160</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/brasil/75492/em+grave+crise+grupo+a+tarde+demite+160+funcionarios+35+sao+jornalistas" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Infoglobo</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">18</td>
+      <td class="total">30</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/ultimas_noticias/75557/o+globo+demite+30+funcionarios+redacao+e+a+mais+atingida+pelos+cortes" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Folha de Londrina</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2015</td>
+			<td class="jornalistas">14</td>
+      <td class="total">15</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/destaque-home/79709-jornal-de-londrina-e-encerrado-e-mais-de-10-jornalistas-sao-demitidos" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Transamérica</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">0</td>
+      <td class="total">5</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/artigos-colunas/79984-ondas-curtas-transamerica-dispensa-cinco-profissionais-da-equipe-esportiva" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Folha</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">4</td>
+      <td class="total">4</td>
+      <td class="jornalistas"><a href=" http://www.portaldosjornalistas.com.br/noticia/corte-na-folha-s-paulo-atinge-varias-editorias" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">iG</td>
+			<td class="midia">Online</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">8</td>
+      <td class="total">8</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/80084-portal-ig-fecha-redacao-em-brasilia-dispensa-jornalistas-e-perde-diretora-de-conteudo" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Record</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">0</td>
+      <td class="total">50</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/80121-record-demite-mais-de-50-auxiliares-de-cinegrafista-e-muda-estrutura-de-externas" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Folha</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://www.portaldosjornalistas.com.br/noticia/isabel-versiani-deixa-sucursal-da-folha-s-paulo" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Hoje em Dia</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">40</td>
+      <td class="total">40</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/80349-demissao-em-massa-cerca-de-40-sao-demitidos-do-jornal-hoje-em-dia" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Sistema Jangadeiro</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">7</td>
+      <td class="total">16</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/80394-sindicato-denuncia-demissoes-de-jornalistas-em-grupo-de-midia-cearense" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Jovem Pan</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/80697-silvia-poppovic-e-demitida-da-jovem-pan-apos-cinco-meses-na-emissora" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Folha</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">6</td>
+      <td class="total">6</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/ultimas_noticias/76795/apos+dois+meses+folha+de+spaulo+realiza+novos+cortes+na+redacao" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Jornal da Paraíba</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">0</td>
+      <td class="total">120</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/80779-jornal-da-paraiba-encerra-versao-impressa-e-demite-mais-de-90-profissionais" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Jornal do Commercio</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">24</td>
+      <td class="total">24</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/destaque-home/80917-mais-antigo-da-america-latina-jornal-do-commercio-fecha-as-portas-e-demite-toda-a-redacao" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Jornal de Brasília</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">15</td>
+      <td class="total">15</td>
+      <td class="jornalistas"><a href=" http://www.portaldosjornalistas.com.br/noticia/jornal-brasilia-corta-metade-da-redacao" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">105 FM</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">7</td>
+      <td class="total">7</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/artigos-colunas/80942-demissoes-na-equipe-esportiva-da-105-fm-de-sp" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rádio Globo/CBN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">3</td>
+      <td class="total">6</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/81039-cbn-e-radio-globo-unificam-equipes-esportivas-no-rio-de-janeiro" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Ejesa</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">11</td>
+      <td class="total">11</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/brasil/77304/em+meio+a+grave+crise+grupo+ejesa+demite+11+jornalistas+de+o+dia+e+meia+hora" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Estado</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">2</td>
+      <td class="total">2</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/ultimas_noticias/76192/em+busca+de+nova+cara+estadao+demite+luiz+prosperi+veja+as+outras+mudancas" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Jovem Pan</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">3</td>
+      <td class="total">3</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/81326-jovem-pan-demite-trio-de-jornalistas-veteranos" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Folha</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">8</td>
+      <td class="total">8</td>
+      <td class="jornalistas"><a href=" http://www.portaldosjornalistas.com.br/noticia/em-novo-corte-folha-s-paulo-demite-ao-menos-oito" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">iG</td>
+			<td class="midia">Online</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">2</td>
+      <td class="total">2</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/81530-editora-que-divulgou-assedio-sofrido-por-reporter-e-demitida-do-ig-leia-mais" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rede Bom Dia</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">8</td>
+      <td class="total">8</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/ultimas_noticias/77694/em+processo+de+readequacao+rede+bom+dia+demite+oito+jornalistas" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">RIC TV</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">8</td>
+      <td class="total">30</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/81705-emissora-de-tv-demite-mais-de-30-funcionarios-no-parana" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Editora Abril</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">2</td>
+      <td class="total">2</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/especiais/81718-demissoes-na-veja-revista-dispensa-vera-magalhaes-e-redator-chefe" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rádio Globo/CBN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">2</td>
+      <td class="total">2</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/81753-claudio-perrout-deixa-a-equipe-esportiva-da-radio-globo-depois-de-15-anos" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rede TV!</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/81979-luciano-faccioli-e-demitido-da-rede-tv" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">TV Pajuçara</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">4</td>
+      <td class="total">4</td>
+      <td class="jornalistas"><a href=" http://al1.com.br/colunistas/bernardino-souto-maior/1847/crise-na-imprensa-leva-tv-pajucara-demitir-jornalistas-gazeta-tambem-prepara-pacote" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Editora PBB</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">4</td>
+      <td class="total">4</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/82286-revista-playboy-enxuga-redacao-e-demite-quatro-jornalistas" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Folha</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">10</td>
+      <td class="total">10</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/destaque-home/82304-folha-demite-mais-de-10-jornalistas-junta-esportes-com-cotidiano-e-enxuga-sucursal-no-rio-de-janeiro" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Correio Popular</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">3</td>
+      <td class="total">3</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/destaque-home/82348-depois-de-protestos-contra-atrasos-salariais-jornalistas-sao-demitidos-por-justa-causa" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">EBC</td>
+			<td class="midia">Agência</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">8</td>
+      <td class="total">30</td>
+      <td class="jornalistas"><a href=" http://www.jornalistasecia.com.br/edicoes/jornalistasecia1071ma05.pdf" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Editora Abril</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">2</td>
+      <td class="total">2</td>
+      <td class="jornalistas"><a href=" http://portalimprensa.com.br/noticias/brasil/78347/abril+demite+diretores+de+redacao+da+vip+e+superinteressante" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">O Tempo</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://www.jornalistasecia.com.br/edicoes/jornalistasecia1071ma05.pdf" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">ESPN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://www.portaldosjornalistas.com.br/noticia/jose-trajano-demitido-da-espn" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">TV Gazeta</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">2</td>
+      <td class="total">75</td>
+      <td class="jornalistas"><a href=" http://natelinha.uol.com.br/noticias/2016/10/17/tv-gazeta-confirma-demissoes-fim-de-faixa-jovem-e-venda-de-horario-102804.php" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Correio de Uberlândia</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">0</td>
+      <td class="total">0</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/82777-fechamento-anunciado-jornal-correio-de-uberlancia-se-despede-das-bancas-no-fim-do-ano" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Estado</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">2</td>
+      <td class="total">2</td>
+      <td class="jornalistas"><a href=" http://www.jornalistasecia.com.br/edicoes/jornalistasecia1075et03.pdf" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">CBN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">9</td>
+      <td class="total">12</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/destaque-home/82787-cbn-demite-jornalistas-e-perde-afiliada-no-nordeste" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rádio Globo/CBN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/82875-por-respeito-aos-ouvintes-apresentador-confirma-demissao-de-laercio-maciel" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">TV Globo</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/82919-reporter-bruno-laurence-e-demitido-da-tv-globo" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rede TV!</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">3</td>
+      <td class="total">3</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/82934-rede-tv-enxuga-redacao-e-demite-tres-jornalistas" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rádio Globo/CBN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">10</td>
+      <td class="total">11</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/artigos-colunas/83009-sistema-globo-de-radio-demite-profissionais-com-mais-de-10-anos-de-empresa" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rádio Globo/CBN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">1</td>
+      <td class="total">20</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/destaque-home/83012-radio-globo-fecha-as-portas-em-bh-e-demite-jornalistas" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rádio Globo/CBN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">4</td>
+      <td class="total">5</td>
+      <td class="jornalistas"><a href=" http://www.sidneyrezende.com/brasil/cbn-demissoes/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rádio Globo/CBN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">3</td>
+      <td class="total">4</td>
+      <td class="jornalistas"><a href=" http://www.sidneyrezende.com/brasil/cbn-desmonta-equipe-esportes/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Folha</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2016</td>
+			<td class="jornalistas">4</td>
+      <td class="total">6</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jo-com/83023-em-5-passaralho-do-ano-folha-demite-correspondente-em-washington-colunista-e-jornalistas" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Bandeirantes</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/apresentador-e-demitido-da-radio-bandeirantes-em-pleno-dia-do-jornalista/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Estado</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">2</td>
+      <td class="total">2</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/fim-da-radio-estadao/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Estado</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">6</td>
+      <td class="total">7</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/ondas-curtas-demissoes-na-radio-estadao-e-fim-de-afiliada-da-cbn/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rádio Globo/CBN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">10</td>
+      <td class="total">15</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/ondas-curtas-demissoes-na-radio-estadao-e-fim-de-afiliada-da-cbn/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Editora Três (IstoÉ)</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://www.portaldosjornalistas.com.br/noticia/editora-tres-inicia-processo-demissao-por-justa-causa-alan-rodrigues-" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Diário de S. Paulo</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">12</td>
+      <td class="total">12</td>
+      <td class="jornalistas"><a href=" http://www.jornalistasecia.com.br/edicoes/jornalistasecia1087nn01.pdf" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Infoglobo</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">40</td>
+      <td class="total">40</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/o-globo-demite-jornalistas-das-editorias-de-cultura-economia-e-esportes/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Estado</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">2</td>
+      <td class="total">4</td>
+      <td class="jornalistas"><a href=" http://www.jornalistasecia.com.br/edicoes/jornalistasecia1086pf26.pdf" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">SBT</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">2</td>
+      <td class="total">2</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/sbt-dispensa-joyce-ribeiro-e-patricia-rocha/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Bandeirantes</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">0</td>
+      <td class="total">40</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/mpb-fm-fecha-as-portas-e-cerca-de-40-sao-demitidos/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Rede Amazônica</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/apresentador-e-demitido-de-afiliada-da-tv-globo-apos-criticar-governador-do-amazonas/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Bandeirantes</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">6</td>
+      <td class="total">7</td>
+      <td class="jornalistas"><a href=" https://tvefamosos.uol.com.br/colunas/flavio-ricco/2017/03/15/radio-de-esportes-da-band-acaba-e-demite-equipe.htm" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Editora Três (IstoÉ)</td>
+			<td class="midia">Revista</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">15</td>
+      <td class="total">15</td>
+      <td class="jornalistas"><a href=" http://www.jornalistasecia.com.br/edicoes/jornalistasecia1083fr04.pdf" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">TV Cultura</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">2</td>
+      <td class="total">2</td>
+      <td class="jornalistas"><a href=" http://www.jornalistasecia.com.br/edicoes/jornalistasecia1083fr04.pdf" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Sistema Gurgacz de Comunicação (SGC)</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">20</td>
+      <td class="total">20</td>
+      <td class="jornalistas"><a href=" http://www.jornalistasecia.com.br/edicoes/jornalistasecia1084fb11.pdf" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Folha de Pernambuco</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">20</td>
+      <td class="total">40</td>
+      <td class="jornalistas"><a href=" http://www.jornalistasecia.com.br/edicoes/jornalistasecia1088lv08.pdf" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">A Tarde</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">17</td>
+      <td class="total">17</td>
+      <td class="jornalistas"><a href=" http://www.jornalistasecia.com.br/edicoes/jornalistasecia1092ls08.pdf" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Estado</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">2</td>
+      <td class="total">2</td>
+      <td class="jornalistas"><a href=" http://www.jornalistasecia.com.br/edicoes/jornalistasecia1092ls08.pdf" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">O Dia</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">6</td>
+      <td class="total">6</td>
+      <td class="jornalistas"><a href=" http://www.jornalistasecia.com.br/edicoes/jornalistasecia1094md22.pdf" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Grupo Bandeirantes</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">3</td>
+      <td class="total">3</td>
+      <td class="jornalistas"><a href=" http://www.jornalistasecia.com.br/edicoes/jornalistasecia1097gp12.pdf" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Correio do Estado</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">13</td>
+      <td class="total">20</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/jornal-de-maior-circulacao-ms-demite-mais-de-10-profissionais/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">UOL</td>
+			<td class="midia">Online</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">9</td>
+      <td class="total">9</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/uol-promove-mudancas-e-programacao-de-conteudo-uol-musica-deezer-e-incerta/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Correio do Estado</td>
+			<td class="midia">Jornal</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">13</td>
+      <td class="total">20</td>
+      <td class="jornalistas"><a href=" http://www.portaldosjornalistas.com.br/noticia/demissoes-no-correio-estado-ms" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">CBN</td>
+			<td class="midia">Rádio e TV</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">1</td>
+      <td class="total">1</td>
+      <td class="jornalistas"><a href=" http://portal.comunique-se.com.br/demitido-da-cbn-ethevaldo-siqueira-afirma-que-diretor-transformara-radio-em-uma-emissora-qualquer/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="veiculo">Ego</td>
+			<td class="midia">Online</td>
+			<td class="ano">2017</td>
+			<td class="jornalistas">9</td>
+      <td class="total">9</td>
+      <td class="jornalistas"><a href=" http://www.jornalistasecia.com.br/edicoes/jornalistasecia1098ll19.pdf" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+		</tr>
+	
+	</tbody>
+</table>
+<h6>Fonte: Levantamento Volt Data Lab</h6>
+</div>
+</div>
+<script type="text/javascript">
+
+var options = {
+  valueNames: ['veiculo', 'midia', 'ano', 'jornalistas', 'total']
+};
+
+var entryList = new List('entry-list', options);
+
+</script>
+
+  </div>
+  <footer>
+<div class="container">
+  <div class="esquerda">
+  <h6>Este projeto é publicado sobre as regras do Creative Commons, com livre distribuição,
+    inclusive para uso comercial, desde que haja crédito ao Volt Data Lab e que seu projeto
+    tenha a mesma licença.</h6>
+    <h6>Para mais informações, <a href="LICENSE.html">clique aqui</a>.</h6>
+  <h6>Desenvolvido por <a href="http://voltdata.info" target="_blank">Volt Data Lab</a></h6>
+  <a href="http://voltdata.info" target="_blank"><img src="../logo.png" width="60px" alt="logo" style="margin:0" /></a>
+</div>
+  <div class="direita">
+    <h6>Siga o Volt:
+    <a href="https://twitter.com/voltdatalab" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    -
+    <a href="https://facebook.com/voltdata" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>
+    </i></a>
+  </h6>
+  <h6>Entre em contato <a href="http://www.voltdata.info/quemsomos">neste link</a></h6>
+  <h6><a href="https://medium.com/volt-data-lab" target="_blank">Blog do Volt no Medium</a></h6>
+  <h6><a href="http://www.voltdata.info/passaralhos/" target="_blank">Informe sobre demissões</a></h6>
+  <h6><a href="https://github.com/voltdatalab/passaralhos" target="_blank">Código do projeto</a></h6>
+  <img src="logo-chape.png" width="70px" alt="Logo da Chapecoense em homenagem às vítimas do desastre de 29/11/2016"/>
+</div>
+</div>
+</footer>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-559db32030e8c39c"></script>
+<script src="https://use.fontawesome.com/ebef64dc49.js"></script>
+
+</body>
+</html>
