@@ -2232,18 +2232,6 @@
 		"obs": null
 	},
 	{
-		"veiculo": "Correio do Estado",
-		"midia": "Jornal",
-		"ano": 2017,
-		"mes": "2017-04-18",
-		"total": 20,
-		"jornalistas": 13,
-		"manchete": "Demissões no Correio do Estado-MS",
-		"fonte": "Portal dos Jornalistas",
-		"link": "http://www.portaldosjornalistas.com.br/noticia/demissoes-no-correio-estado-ms",
-		"obs": null
-	},
-	{
 		"veiculo": "CBN",
 		"midia": "Rádio e TV",
 		"ano": 2017,
@@ -2265,6 +2253,54 @@
 		"manchete": "Rede Globo extingue portal Ego",
 		"fonte": "Jornalistas e Cia",
 		"link": "http://www.jornalistasecia.com.br/edicoes/jornalistasecia1098ll19.pdf",
+		"obs": null
+	},
+	{
+		"veiculo": "Correio do Povo",
+		"midia": "Jornal",
+		"ano": 2017,
+		"mes": "2017-04-26",
+		"total": 1,
+		"jornalistas": 1,
+		"manchete": "Correio do Povo demite Celso Schröder",
+		"fonte": "Jornalistas e Cia",
+		"link": "http://www.jornalistasecia.com.br/edicoes/jornalistasecia1099pj26.pdf",
+		"obs": null
+	},
+	{
+		"veiculo": "Bandeirantes",
+		"midia": "Rádio e TV",
+		"ano": 2017,
+		"mes": "2017-05-30",
+		"total": 1,
+		"jornalistas": 1,
+		"manchete": "Vanessa Cochi fala sobre demissão do BandNews TV",
+		"fonte": "Portal Comunique-se",
+		"link": "http://portal.comunique-se.com.br/vanessa-cochi-fala-sobre-demissao-da-bandnews-tv/",
+		"obs": null
+	},
+	{
+		"veiculo": "Gazeta do Povo",
+		"midia": "Jornal",
+		"ano": 2017,
+		"mes": "2017-06-02",
+		"total": 62,
+		"jornalistas": 10,
+		"manchete": "Fim da versão impressa da Gazeta do Povo provoca mais de 60 demissões",
+		"fonte": "Portal Comunique-se",
+		"link": "http://portal.comunique-se.com.br/fim-da-versao-impressa-da-gazeta-do-povo-provoca-mais-de-60-demissoes/",
+		"obs": null
+	},
+	{
+		"veiculo": "TV Tem",
+		"midia": "Rádio e TV",
+		"ano": 2017,
+		"mes": "2017-06-08",
+		"total": 36,
+		"jornalistas": 9,
+		"manchete": "Afiliada da Globo, TV Tem demite mais de 30 profissionais em reestruturação",
+		"fonte": "Portal Comunique-se",
+		"link": "http://portal.comunique-se.com.br/afiliada-da-globo-tv-tem-demissao-30-profissionais-reestruturacao/",
 		"obs": null
 	}
 ]
