@@ -8,6 +8,7 @@ Nesta seção estão alguns links de reportagens e artigos acadêmicos que utili
 
 #### Publicações que utilizaram "A Conta dos Passaralhos" como fonte
 
+- [Jornalismo do século XXI: as novas tecnologias nas redações](https://issuu.com/giulialaseri/docs/jornalismo_do_s__culo_xxi) - ESPM-SP - 06/2017
 - [O Sujeito Oculto](http://piaui.folha.uol.com.br/materia/o-sujeito-oculto/) - Revista piauí - 12/2015
 - [Uma notícia velha: as demissões no jornalismo](http://bit.ly/2oy2cis) - Brazil Journal - 09/2016
 - [Brasil: A mordida do ouroboro](http://www.infoamerica.org/icr/n10/blotta.pdf) - Infoamerica - 10/2016
