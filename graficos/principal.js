@@ -25,7 +25,7 @@ var json = (function () {
     .legend({"size": 75})
     .color({"scale": ['#9ecae1','#6baed6','#4292c6','#2171b5','#08519c'], "value": "midia"})
     .size("jornalistas")
-    .title({"value": "Quadro completo sobre demissões de jornalistas", "font":{"size": "30px"}})
+    .title({"value": "", "font":{"size": "30px"}})
     .title({
       "sub": {"font": {"size": 20},
       "value": "Pesquise por ano, mídia principal do grupo e veículo"} ,
