@@ -2326,5 +2326,17 @@
 		"fonte": "Portal Comunique-se",
 		"link": "http://portal.comunique-se.com.br/radio-bandeirantes-demite-reporter-e-correspondente-experientes/",
 		"obs": null
+	},
+	{
+		"veiculo": "Record",
+		"midia": "Rádio e TV",
+		"ano": 2017,
+		"mes": "2017-08-30",
+		"total": 4,
+		"jornalistas": 4,
+		"manchete": "Cortes na Record",
+		"fonte": "Jornalistas e Cia",
+		"link": "http://www.jornalistasecia.com.br/edicoes/jornalistasecia1117sb30.pdf",
+		"obs": null
 	}
 ]
