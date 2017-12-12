@@ -2542,5 +2542,29 @@
 		"fonte": "Portal Comunique-se",
 		"link": "https://portal.comunique-se.com.br/baixas-helvidio-mattos-espn-brasil/",
 		"obs": null
+	},
+	{
+		"veiculo": "A Tribuna",
+		"midia": "Jornal",
+		"ano": 2017,
+		"mes": "2017-12-12",
+		"total": 15,
+		"jornalistas": 15,
+		"manchete": "Urgente –  Orientações aos jornalistas demitidos de A Tribuna",
+		"fonte": "Sindicato dos Jornalistas do ES",
+		"link": "http://www.sindijornalistases.org.br/urgente-orientacoes-aos-jornalistas-demitidos-de-a-tribuna/",
+		"obs": null
+	},
+	{
+		"veiculo": "CBN",
+		"midia": "Rádio e TV",
+		"ano": 2017,
+		"mes": "2017-12-07",
+		"total": 1,
+		"jornalistas": 1,
+		"manchete": "CBN demite o premiado repórter Che Oliveira",
+		"fonte": "Portal Comunique-se",
+		"link": "https://portal.comunique-se.com.br/danuza-leao-no-globo-demissao-na-cbn-e-emissora-reformulada/",
+		"obs": null
 	}
 ]
