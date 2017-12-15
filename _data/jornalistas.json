@@ -2280,6 +2280,18 @@
 		"obs": null
 	},
 	{
+		"veiculo": "Tribuna do Norte",
+		"midia": "Jornal",
+		"ano": 2017,
+		"mes": "2017-05-06",
+		"total": 5,
+		"jornalistas": 5,
+		"manchete": "Grupo fecha ciclo de demissões em Tribuna e Rádio Globo",
+		"fonte": "Blog Carlos Santos",
+		"link": "http://blogdocarlossantos.com.br/126627/",
+		"obs": "Dados exatos via denúncia no canal do Volt Data Lab"
+	},
+	{
 		"veiculo": "Bandeirantes",
 		"midia": "Rádio e TV",
 		"ano": 2017,
@@ -2548,12 +2560,12 @@
 		"midia": "Jornal",
 		"ano": 2017,
 		"mes": "2017-12-12",
-		"total": 15,
-		"jornalistas": 15,
-		"manchete": "Urgente –  Orientações aos jornalistas demitidos de A Tribuna",
+		"total": 100,
+		"jornalistas": 20,
+		"manchete": "A Tribuna (ES) corta ao menos 12",
 		"fonte": "Sindicato dos Jornalistas do ES",
-		"link": "http://www.sindijornalistases.org.br/urgente-orientacoes-aos-jornalistas-demitidos-de-a-tribuna/",
-		"obs": null
+		"link": "http://www.jornalistasecia.com.br/edicoes/jornalistasecia1132pj13.pdf",
+		"obs": "Pode chegar a 20 em janeiro"
 	},
 	{
 		"veiculo": "CBN",
@@ -2565,6 +2577,18 @@
 		"manchete": "CBN demite o premiado repórter Che Oliveira",
 		"fonte": "Portal Comunique-se",
 		"link": "https://portal.comunique-se.com.br/danuza-leao-no-globo-demissao-na-cbn-e-emissora-reformulada/",
+		"obs": null
+	},
+	{
+		"veiculo": "Editora Abril",
+		"midia": "Revista",
+		"ano": 2017,
+		"mes": "2017-12-13",
+		"total": 170,
+		"jornalistas": 17,
+		"manchete": "Abril confirma demissões mas nega recuperação judicial",
+		"fonte": "Portal dos Jornalistas",
+		"link": "http://www.portaldosjornalistas.com.br/abril-confirma-demissoes-mas-nega-recuperacao-judicial/",
 		"obs": null
 	}
 ]
