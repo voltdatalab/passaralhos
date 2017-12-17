@@ -2590,5 +2590,17 @@
 		"fonte": "Portal dos Jornalistas",
 		"link": "http://www.portaldosjornalistas.com.br/abril-confirma-demissoes-mas-nega-recuperacao-judicial/",
 		"obs": null
+	},
+	{
+		"veiculo": "Record",
+		"midia": "R7",
+		"ano": 2017,
+		"mes": "2017-12-15",
+		"total": 21,
+		"jornalistas": 21,
+		"manchete": "Retaliação: R7 demite mais de 20 jornalistas envolvidos em paralisação",
+		"fonte": "Portal Comunique-se",
+		"link": "https://portal.comunique-se.com.br/retaliacao-r7-demite-mais-de-20-jornalistas-envolvidos-em-paralisacao/",
+		"obs": null
 	}
 ]
