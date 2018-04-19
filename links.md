@@ -8,6 +8,7 @@ Nesta seção estão alguns links de reportagens e artigos acadêmicos que utili
 
 #### Publicações que utilizaram "A Conta dos Passaralhos" como fonte
 
+- [Volt Data Lab grew from a personal blog for coding experiments to a full-fledged data storytelling agency](http://bit.ly/2vsZP9p) - Nieman Lab - 01/2018
 - [Jornalismo do século XXI: as novas tecnologias nas redações](https://issuu.com/giulialaseri/docs/jornalismo_do_s__culo_xxi) - ESPM-SP - 06/2017
 - [O Sujeito Oculto](http://piaui.folha.uol.com.br/materia/o-sujeito-oculto/) - Revista piauí - 12/2015
 - [Uma notícia velha: as demissões no jornalismo](http://bit.ly/2oy2cis) - Brazil Journal - 09/2016

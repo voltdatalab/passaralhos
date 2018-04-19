@@ -12,6 +12,8 @@ We tracks layoffs of journalists within media companies in Brazil. The project c
 
 The database is maintained by Brazilian journalism agency [Volt Data Lab](www.voltdata.info) and by journalist [Sérgio Spagnuolo](www.twitter.com/sergiospagnuolo), and you can find all this website's code and data in our [Github repo](https://github.com/voltdatalab/passaralhos).
 
+You can read more about Volt [in this profile](http://bit.ly/2vsZP9p) *Nieman Lab* published about the agency.
+
 ###### Chart: Number journalists fired from newsrooms in Brazil, per year
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
