@@ -14,6 +14,12 @@ Soma-se a isso a pouca transparência das empresas jornalísticas, que raramente
 
 Outro motivo é a informalidade do setor. Em parte, isso explicaria a falta de transparência das empresas: se elas estão fazendo algo irregular, como contratar jornalistas como PJ ou “frilas fixos”, obviamente não divulgariam os cortes - até porque esses profissionais não seriam considerados funcionários.
 
+Um [estudo](http://bit.ly/2JaiNU6) de 2013 com 2.713 de todo o Brasil mostrou que, embora 75% deles tenha dido possuir algum registro profissional (MTB), apenas cerca de 50% trabalhavam em redações -- uma proporção que é provavelmente menor agora, após varias dispensas.
+
+A pesquisa concluiu que 25% dos empregos em redações não eram CLT, o que significa que essas pessoas não eram funcionários, e sim frilas ou PJs.
+
+(*Nota do editor: eu tenho restrições com esse dado. Quando se é informal, algumas atribuições que você tenha podem não incluir trabalhar período integral em uma redação, mas se você é colaborador frequente, pode ter características de um funcionário.*)
+
 Para se ter uma ideia da dificuldade em se obter dados precisos, nem mesmo a Fenaj sabe quantos jornalistas de redação foram demitidos nos últimos anos ou quantos são terceirizados ou PJs. Na falta de um levantamento detalhado, a entidade baseia-se em dados do Ministério do Trabalho, que contabiliza apenas celetistas e não discrimina se eles são de redações ou de outras áreas relacionadas ao jornalismo - como assessoria de imprensa, comunicação interna e produção de conteúdo corporativo.
 
 Em um pedido de dados feito pelo Volt por e-mail em 15 de maio de 2015, à época da concepção do projeto, a reposta da Fenaj foi: “não temos os dados solicitados e a melhor fonte é o MTE, que é responsável pelos levantamentos anuais”. Em subsequente contato com um diretor da entidade, foram enviados dados do Caged.
@@ -50,7 +56,9 @@ Por fim, não se deve considerar os dados deste levantamento como "demissões l�
 
 É seguro dizer, no entanto, que muitas vagas em redações foram extintas, e muitas das que foram repostas o foram com profissionais mais jovens e, consequentemente, com salários menores.
 
-*Texto original de junho/2015, revisado em setembro/2016*
+###### *Texto original de junho/2015, revisado em abril/2018*
+###### *por Sérgio Spagnuolo*
+###### *e-mail: [info[@]voltdata.info](mailto: info@voltdata.info)*
 
 ---
 

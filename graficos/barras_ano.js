@@ -24,7 +24,7 @@ var visualization = d3plus
   .type("bar")
   .id("ano")
   .x({ value: "ano", label: "" })
-  .y({ value: "jornalistas", label: "demissões" })
+  .y({ value: "jornalistas", label: "" })
   .legend(false)
   .color(function(d) {
     return d.jornalistas < 300 ? "#9ecae1" : "#386cb0";
