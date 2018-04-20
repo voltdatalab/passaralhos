@@ -4,7 +4,9 @@ layout: default
 
 #### ABOUT THIS PROJECT
 
-We tracks layoffs of journalists within media companies in Brazil. The project compile data from publications that report on the media, by close readership of niche bulletins and from alerts we receive about specific search terms.
+We tracks layoffs of journalists within media companies in Brazil. The project compiles data from publications that report on the media, by close readership of niche bulletins and from alerts we receive about specific search terms.
+
+It is a landmark independent data project in Brazil and a national reference regarding journalists layoffs, being source to dozens of news and academic reports all over the country (find some of those [here](links.html), most are in Portuguese.)
 
 **{{ site.jornalistas }} journalists were fired from newsrooms in Brazil since 2012.**
 
