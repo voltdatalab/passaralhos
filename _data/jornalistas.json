@@ -702,6 +702,19 @@
 		"obs": null
 	},
 	{
+		"veiculo": "Jornal do Commercio",
+		"midia": "Jornal",
+		"ano": 2014,
+		"mes": "2014-02-26",
+		"total": 13,
+		"outros": 2,
+		"jornalistas": 11,
+		"manchete": "Nota da Diretoria de Redação do Jornal do Commercio",
+		"fonte": "OmbudsmanPE",
+		"link": "http://ombudspe.org.br/nota-da-diretoria-de-redacao-do-jornal-do-commercio/",
+		"obs": null
+	},
+	{
 		"veiculo": "Correio Braziliense",
 		"midia": "Jornal",
 		"ano": 2014,
@@ -2925,6 +2938,19 @@
 		"obs": null
 	},
 	{
+		"veiculo": "Editora Caras",
+		"midia": "Revista",
+		"ano": 2018,
+		"mes": "2018-03-27",
+		"total": 20,
+		"outros": 0,
+		"jornalistas": 20,
+		"manchete": "Editora Caras vende revistas e demite jornalistas",
+		"fonte": "Portal Comunique-se",
+		"link": "https://portal.comunique-se.com.br/editora-caras-vende-revistas-e-demite-jornalistas/",
+		"obs": "pelo menos 20 profissionais"
+	},
+	{
 		"veiculo": "Editora Abril",
 		"midia": "Revista",
 		"ano": 2018,
@@ -2961,6 +2987,32 @@
 		"manchete": "Folha e Agora passam a ter redação unificada. Jornalistas são demitidos",
 		"fonte": "Portal Comunique-se",
 		"link": "https://portal.comunique-se.com.br/folha-e-agora-passam-a-ter-redacao-unificada-jornalistas-sao-demitidos/",
+		"obs": null
+	},
+	{
+		"veiculo": "Editora Três (IstoÉ)",
+		"midia": "Revista",
+		"ano": 2018,
+		"mes": "2018-07-10",
+		"total": 7,
+		"outros": 5,
+		"jornalistas": 2,
+		"manchete": "IstoÉ fecha sucursal no Rio. Eliane Lobato deixa a Editora Três após 18 anos",
+		"fonte": "Jornalistas e Cia",
+		"link": "http://www.jornalistasecia.com.br/edicoes/jornalistasecia1160ie04.pdf",
+		"obs": null
+	},
+	{
+		"veiculo": "Editora Abril",
+		"midia": "Revista",
+		"ano": 2018,
+		"mes": "2018-08-06",
+		"total": 500,
+		"outros": 329,
+		"jornalistas": 171,
+		"manchete": "Editora Abril deve demitir 500 pessoas, 171 jornalistas até 4ª feira",
+		"fonte": "Poder360",
+		"link": "https://www.poder360.com.br/midia/editora-abril-deve-demitir-500-pessoas-171-jornalistas-ate-4a-feira/",
 		"obs": null
 	}
 ]
