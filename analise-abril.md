@@ -81,11 +81,11 @@ layout: default
 
 #####  Dívida **trabalhista** da Abril Comunicações S/A
 
-| métrica       | R$           |
+| métrica       |            |
 |---------------|--------------|
 | Credores      | 1.173        |
-| Média         | 33.103,03    |
-| Mediana       | 835,53       |
-| Máximo        | 2.219.874,35 |
-| Mínimo        | 62,50        |
-| Desvio Padrão | 112.628,97   |
+| Média         | R$ 33.103,03    |
+| Mediana       | R$ 835,53       |
+| Máximo        | R$ 2.219.874,35 |
+| Mínimo        | R$ 62,50        |
+| Desvio Padrão | R$ 112.628,97   |
