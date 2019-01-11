@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>A Conta dos Passaralhos</title>
   <link rel="stylesheet" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
 <!DOCTYPE html>
 <html>
 <head>
@@ -59,7 +58,7 @@
 
 </head>
 <body>
-<div id="header">
+  <div id="header">
         <a href="index.html" target="_blank"> <img src="logo.png" alt="logo" id="logo"> </a>
         <div class="dropdown">
             <button class="dropbtn"><i class="fa fa-bars fa-lg" aria-hidden="true"></i> </button>
@@ -76,7 +75,7 @@
         </div>
 </div>
 
-<div class="container">
+  <div class="container">
     <h1><a href="index.html">A Conta dos Passaralhos</a></h1>
     <h2>Um panorama sobre demissões de jornalistas nas redações do Brasil desde 2012.</h2>
     <ul class="nav">
@@ -96,37 +95,288 @@
 
 </h6>
 
-    </div>
-    <div class="break">
-      <div class="container">
-    <p><strong class="numeros">2.327</strong> demissões de jornalistas em redações desde 2012</p>
-    <p><strong class="numeros">7.817</strong> demissões totais em empresas de mídia </p>
-    <p><small><em>Última atualização em 07/08/2018</em></small></p>
-      <h6 id="acesse-a-tabela-com-todos-os-dados"><a href="http://bit.ly/2dLG693">Acesse a tabela com todos os dados</a></h6>
+    <hr />
+    <h2 id="estatísticas-básicas-sobre-a-dívida-da-abril-e-empresas-relacionadas">Estatísticas básicas sobre a dívida da Abril e empresas relacionadas</h2>
 
-<h6 id="acesse-a-api-com-todos-os-dados"><a href="http://bit.ly/2dLHGHS">Acesse a API com todos os dados</a></h6>
+<h5 id="dívida-em-real-r-por-empresa">Dívida em real (R$), por empresa</h5>
 
-      </div>
-    </div>
-      </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="js/d3.js"></script>
-    <script src="js/d3plus.js"></script>
-    <div class="container">
-        <div style="text-align:center">
-        <h3>Demissões de jornalistas por ano, desde 2012</h3>
-        <br />
-  <ul>
-    <li style="background-color:#386cb0;padding: 5px;color:#fff"><span> > 300 demissões/ano</span></li>
-    <li style="background-color:#9ecae1;padding: 5px;color:#444"><span> < 300 demissões/ano</span></li>
-  </ul>
-        </div>
-    <div id="chart"> </div>
-    <br />
-    <div id="grafico"> </div>
-    <script src="graficos/barras_ano.js"></script>
-    <script src="graficos/principal.js"></script>
-    <br />
+<table>
+  <thead>
+    <tr>
+      <th>empresa</th>
+      <th>valor da dívida em R$</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ABRIL COMUNICAÇÕES S/A.</td>
+      <td>1.377.180.835,16</td>
+    </tr>
+    <tr>
+      <td>ABRILPAR PARTICIPAÇÕES LTDA.</td>
+      <td>1.214.100.921,14</td>
+    </tr>
+    <tr>
+      <td>ATIVIC S/A.</td>
+      <td>1.094.222.891,57</td>
+    </tr>
+    <tr>
+      <td>ABRIL MÍDIA S/A.</td>
+      <td>1.075.693.105,13</td>
+    </tr>
+    <tr>
+      <td>TREELOG S/A - LOGÍSTICA E DISTRIBUIÇÃO</td>
+      <td>91.776.927,47</td>
+    </tr>
+    <tr>
+      <td>TEX COURIER S.A.</td>
+      <td>60.390.000,71</td>
+    </tr>
+    <tr>
+      <td>DINAP -DISTRIBUIDORA NACIONAL DE PUBLICAÇÕES LTDA.</td>
+      <td>44.364.065,41</td>
+    </tr>
+    <tr>
+      <td>CASA COR PROMOÇÕES E COMERCIAL LTDA.</td>
+      <td>7.949.596,11</td>
+    </tr>
+    <tr>
+      <td>ABRIL RADIODIFUSÃO S/A.</td>
+      <td>6.390.903,89</td>
+    </tr>
+    <tr>
+      <td>EDITORA NOVO CONTINENTE S/A.</td>
+      <td>6.310.988,44</td>
+    </tr>
+    <tr>
+      <td>ABRIL MARCAS LTDA.</td>
+      <td>6.307.701,29</td>
+    </tr>
+    <tr>
+      <td>WEBCO INTERNET S/A.</td>
+      <td>6.305.607,09</td>
+    </tr>
+    <tr>
+      <td>CANAIS ABRIL DE TELEVISÃO LTDA.</td>
+      <td>6.305.487,09</td>
+    </tr>
+    <tr>
+      <td>IBA COMERCIAL E DISTRIBUIÇÃO S/A.</td>
+      <td>589.632,57</td>
+    </tr>
+    <tr>
+      <td>ABRIL VÍDEO DISTRIBUIÇÃO LTDA.</td>
+      <td>17.209,47</td>
+    </tr>
+    <tr>
+      <td>ABRIL MUSICLUB LTDA.</td>
+      <td>7.807,99</td>
+    </tr>
+    <tr>
+      <td>DGB PARTICIPAÇÕES - DISTRIBUIÇÃO GEOGRÁFICA DO BRASIL S/A.</td>
+      <td>2.450,43</td>
+    </tr>
+    <tr>
+      <td>DILOGPAR - DISTRIBUIÇÃO, LOGÍSTICA E PARTICIPAÇÕES LTDA</td>
+      <td>1.763,09</td>
+    </tr>
+    <tr>
+      <td>ABRIL TECNOLOGIA DIGITAL S/A.</td>
+      <td>809,50</td>
+    </tr>
+    <tr>
+      <td>DIPAR PARTICIPAÇÕES LTDA.</td>
+      <td>470,00</td>
+    </tr>
+    <tr>
+      <td>USINA DO SOM BRASIL LTDA.</td>
+      <td>145,70</td>
+    </tr>
+    <tr>
+      <td>TV CONDOR S/A.</td>
+      <td>120,00</td>
+    </tr>
+    <tr>
+      <td>BEIGETREE PARTICIPAÇÕES LTDA.</td>
+      <td>120,00</td>
+    </tr>
+    <tr>
+      <td><strong>Total geral</strong></td>
+      <td><strong>4.997.919.559,25</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h5 id="dívida-em-dólar-us-por-empresa">Dívida em dólar (US$), por empresa</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>empresa</th>
+      <th>valor da dívida em US$</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ABRIL COMUNICAÇÕES S/A.</td>
+      <td>7.721.376,72</td>
+    </tr>
+    <tr>
+      <td>ABRIL MÍDIA S/A.</td>
+      <td>1.000.000,00</td>
+    </tr>
+    <tr>
+      <td>IBA COMERCIAL E DISTRIBUIÇÃO S/A.</td>
+      <td>42.267,64</td>
+    </tr>
+    <tr>
+      <td>DINAP -DISTRIBUIDORA NACIONAL DE PUBLICAÇÕES LTDA.</td>
+      <td>2.246,66</td>
+    </tr>
+    <tr>
+      <td><strong>Total geral</strong></td>
+      <td><strong>8.765.891,02</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h5 id="dívida-em-euro--por-empresa">Dívida em euro (€), por empresa</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>empresa</th>
+      <th>valor da dívida em €</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ABRIL COMUNICAÇÕES S/A.</td>
+      <td>124.532,44</td>
+    </tr>
+    <tr>
+      <td>DINAP -DISTRIBUIDORA NACIONAL DE PUBLICAÇÕES LTDA.</td>
+      <td>1.368,69</td>
+    </tr>
+    <tr>
+      <td><strong>Total geral</strong></td>
+      <td><strong>125.901,13</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h5 id="dívida-trabalhista-em-reais-r-por-empresa">Dívida <strong>trabalhista</strong> em reais (R$), por empresa</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>empresa</th>
+      <th>valor da dívida trabalhista, em R$</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ABRIL COMUNICAÇÕES S/A.</td>
+      <td>76.997.639,56</td>
+    </tr>
+    <tr>
+      <td>TREELOG S/A - LOGÍSTICA E DISTRIBUIÇÃO</td>
+      <td>7.081.529,76</td>
+    </tr>
+    <tr>
+      <td>TEX COURIER S.A.</td>
+      <td>4.277.720,91</td>
+    </tr>
+    <tr>
+      <td>DINAP -DISTRIBUIDORA NACIONAL DE PUBLICAÇÕES LTDA.</td>
+      <td>3.993.564,56</td>
+    </tr>
+    <tr>
+      <td>CASA COR PROMOÇÕES E COMERCIAL LTDA.</td>
+      <td>534.104,45</td>
+    </tr>
+    <tr>
+      <td>IBA COMERCIAL E DISTRIBUIÇÃO S/A.</td>
+      <td>181.295,64</td>
+    </tr>
+    <tr>
+      <td>ABRIL RADIODIFUSÃO S/A.</td>
+      <td>51.953,25</td>
+    </tr>
+    <tr>
+      <td>ABRIL VÍDEO DISTRIBUIÇÃO LTDA.</td>
+      <td>16.539,27</td>
+    </tr>
+    <tr>
+      <td>ABRIL MUSICLUB LTDA.</td>
+      <td>6.957,99</td>
+    </tr>
+    <tr>
+      <td>DGB PARTICIPAÇÕES - DISTRIBUIÇÃO GEOGRÁFICA DO BRASIL S/A.</td>
+      <td>2.138,43</td>
+    </tr>
+    <tr>
+      <td>DILOGPAR - DISTRIBUIÇÃO, LOGÍSTICA E PARTICIPAÇÕES LTDA</td>
+      <td>1.643,09</td>
+    </tr>
+    <tr>
+      <td>ABRIL MARCAS LTDA.</td>
+      <td>647,95</td>
+    </tr>
+    <tr>
+      <td>Total geral</td>
+      <td>93.145.734,86</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<hr />
+
+<h5 id="dívida-trabalhista-da-abril-comunicações-sa">Dívida <strong>trabalhista</strong> da Abril Comunicações S/A</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>métrica</th>
+      <th>R$</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Credores</td>
+      <td>1.173</td>
+    </tr>
+    <tr>
+      <td>Média</td>
+      <td>33.103,03</td>
+    </tr>
+    <tr>
+      <td>Mediana</td>
+      <td>835,53</td>
+    </tr>
+    <tr>
+      <td>Máximo</td>
+      <td>2.219.874,35</td>
+    </tr>
+    <tr>
+      <td>Mínimo</td>
+      <td>62,50</td>
+    </tr>
+    <tr>
+      <td>Desvio Padrão</td>
+      <td>112.628,97</td>
+    </tr>
+  </tbody>
+</table>
+
   </div>
   <footer>
   <style>
@@ -159,29 +409,9 @@
 </div>
 </footer>
 
-  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-559db32030e8c39c"></script>
 <script src="https://use.fontawesome.com/ebef64dc49.js"></script>
 
-  <style>
-  body{
-  background-color: #fff;
-  color: #222
-}
-
-span{
-  font-weight: 700;
-  font-size: 18px;
-}
-
-ul {
-  overflow: auto;
-  margin: 0px
-}
-
-ul li {
-  display: inline-block;
-}
-  </style>
 </body>
 </html>

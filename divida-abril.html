@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/list.js"></script>
+
+<p>O documento de credores relacionado ao processo de recuperação judicial da Abril Comunicações S/A e empresas relacionadas é um PDF formatado em bloco, de difícil exploração e visualização.</p>
+      <p>Como se trata de um documento público, disponibilizado abertamente, tomamos a liberdade de disponibilizar um formato mais amigável para buscas e download de informações. O link para o documento original <a href="http://sjsp.org.br/system/uploads/ck/files/Relacao%20de%20credores%20atualizada_Deloitte_7Janeiro2019.pdf" target="_blank">está aqui</a>, no site do <em>Sindicato dos Jornalistas Profissionais no Estado de São Paulo</em>.</p>
+        <p>Esse projeto foi desenvolvido pelo VOLT DATA LAB, no âmbito do programa <a href="http://passaralhos.voltdata.info/" target="_blank">A Conta dos Passaralhos</a>, com colaboração de Álvaro Justen (a.k.a. Turicas) na extração de informações do PDF e Sérgio Spagnuolo, na visualização e análise desse material.</p>
+        <p>Os dados abertos podem ser encontrados <a href="https://gist.githubusercontent.com/turicas/e7dec60780c2e3c2b8346d51b753a5ac/raw/796cbb2077250055a5a6c0234cd4c384718d626f/abril-credores.csv" target="_blank">neste link</a> ou <a href="analise-abril">acesse este link</a> para estatísticas básicas da base.</p>
+
+<div id="entry-list">
+<div class="row" style="margin-bottom:10px;">
+		<input id="toolSearch" type="text" class="search form-control" placeholder="Busque aqui por nome, empresa ou valor" />
+</div>
+
+<div class="row">
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th style="width:30%;"><span class="sort" data-sort="veiculo">Empresa</span></th>
+			<th style="width:20%;"><span class="sort" data-sort="midia">Classe</span></th>
+			<th style="width:10%;text-align:center"><span class="sort" data-sort="ano">Nome</span></th>
+			<th style="width:10%;text-align:center"><span class="sort" data-sort="jornalistas">Valor</span></th>
+      <th style="width:10%;text-align:center"><span class="sort" data-sort="jornalistas">Moeda</span></th>
+		</tr>
+	</thead>
+	<tbody class="list">
+	{% for abril-credores in site.data.abril-credores %}
+		<tr>
+			<td class="veiculo">{{ abril-credores.empresa }}</td>
+			<td class="midia">{{ abril-credores.classe }}</td>
+			<td class="ano">{{ abril-credores.nome }}</td>
+			<td class="jornalistas">{{ abril-credores.valor }}</td>
+      <td class="total">{{ abril-credores.moeda }}</td>
+		</tr>
+	{% endfor %}
+	</tbody>
+</table>
+<h6>Fonte: Sindicado dos Jornalistas Profissionais no Estado de São Paulo</h6>
+</div>
+</div>
+<script type="text/javascript">
+
+var options = {
+  valueNames: ['veiculo', 'midia', 'ano', 'jornalistas', 'total']
+};
+
+var entryList = new List('entry-list', options);
+
+</script>
