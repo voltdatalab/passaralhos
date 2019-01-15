@@ -77,8 +77,6 @@ layout: default
 
 ---
 
----
-
 #####  Dívida **trabalhista** da Abril Comunicações S/A
 
 | métrica       |            |
